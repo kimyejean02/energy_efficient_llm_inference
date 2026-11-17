@@ -1,0 +1,29 @@
+universe = vanilla
+
+executable = /bin/bash
+arguments = llm_energy_gpu.sh
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = llm_energy_gpu.py, benchmark_prompts.csv // Change input files
+transfer_output_files = llm_energy_gpu_results.csv // Change output files
+
+request_gpus = 1
+request_cpus = 4
+request_memory = 24GB
+request_disk = 20GB
+requirements = InMastodon && regexp("eldar", Name) && regexp("GTX 1080 Ti", CUDADeviceName)
+
+output = llm_energy_gpu.out
+error = llm_energy_gpu.err
+log = llm_energy_gpu.log
+
++GPUJob = true
++Group = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "GPU script for energy and latency measurements of Qwen LLM inference"
+
+notification = Complete
+notify_user = ishajannu@utexas.edu // Change email
+
+queue
