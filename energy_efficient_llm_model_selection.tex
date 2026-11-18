@@ -1,0 +1,313 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+%Template version as of 6/27/2024
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{Energy-Efficient LLM Inference via Adaptive Model Selection\\
+}
+
+\author{\IEEEauthorblockN{Yejean Kim}
+\IEEEauthorblockA{\textit{University of Texas at Austin} \\
+\textit{Department of Electrical and Computer Engineering}\\
+yejean.kim@utexas.edu}
+\and
+\IEEEauthorblockN{Isha Jannu}
+\IEEEauthorblockA{\textit{University of Texas at Austin} \\
+\textit{Department of Computer Science}\\
+ishajannu@utexas.edu}
+}
+
+\maketitle
+
+\begin{abstract}
+Large language models (LLMs) can provide strong performance across a
+variety of tasks, but their inference workloads consume computational
+resources and energy. Using a larger model for every request may be
+unnecessary when a smaller or task-specialized model can provide
+sufficient response quality. This work investigates the relationship
+between model size, task specialization, inference energy consumption,
+and response quality. Three instruction-tuned models are evaluated:
+Qwen2.5-1.5B-Instruct, Qwen2.5-3B-Instruct, and
+Qwen2.5-Coder-1.5B-Instruct. The models are compared across factual
+question answering, summarization, and code generation. GPU energy is
+estimated from NVIDIA Management Library (NVML) power measurements,
+while inference latency, generated tokens, throughput, and
+task-specific quality are recorded. Preliminary experiments were
+conducted on an NVIDIA L4 GPU. The study uses these
+measurements to examine whether model selection based on task
+requirements can reduce inference energy without an unacceptable loss
+in response quality. Further experiments on an NVIDIA GTX 1080 Ti are
+planned to extend the evaluation to a second hardware platform.
+\end{abstract}
+
+\section{Introduction}
+Large language models (LLMs) have become increasingly prevalent in
+applications involving question answering, summarization, code
+generation, and general-purpose assistance. As these models grow in
+size and capability, the computational resources required to serve
+inference requests have also increased. In particular, inference
+places demands on GPU resources and consumes energy, raising concerns
+about the efficiency and scalability of LLM-based applications.
+
+A common approach to improving response quality is to use increasingly
+large models. However, larger models do not necessarily provide
+proportional improvements across all tasks. Some requests may be
+handled adequately by smaller general-purpose models, while others
+may benefit from larger models or models specialized for particular
+tasks. This creates an opportunity to improve inference efficiency by
+selecting models according to the requirements of individual requests.
+
+This work investigates the relationship between model size, task
+specialization, inference energy consumption, and response quality.
+Three models are evaluated: Qwen2.5-1.5B-Instruct,
+Qwen2.5-3B-Instruct, and Qwen2.5-Coder-1.5B-Instruct. These models
+represent two general-purpose models of different sizes and a smaller
+model specialized for code generation. Their performance is compared
+across factual question answering, summarization, and code generation
+tasks.
+
+The primary objective is to determine whether selecting models based
+on task requirements can reduce inference energy consumption without
+substantially sacrificing response quality. To investigate this
+objective, GPU energy consumption, inference latency, token
+generation performance, and task-specific quality metrics are
+measured. The resulting comparisons are used to explore the potential
+benefits of adaptive model selection.
+
+This study addresses the following research questions:
+
+\begin{itemize}
+    \item How do model size and task specialization affect
+    LLM inference energy consumption and performance?
+    \item What tradeoffs exist between inference energy
+    consumption and response quality across different task categories?
+    \item To what extent can adaptive model selection
+    reduce energy consumption while maintaining acceptable response
+    quality?
+\end{itemize}
+
+The contributions of this work are threefold. First, it provides an
+empirical comparison of inference energy consumption and performance
+across general-purpose and task-specialized LLMs. Second, it evaluates
+the relationship between energy consumption and response quality
+across multiple task categories. Third, it uses these comparisons to
+investigate the feasibility of an adaptive model-selection strategy
+that assigns requests to models based on their expected computational
+cost and quality requirements.
+
+\section{Background and Related Work}
+
+\section{Methodology}
+
+\subsection{Model Selection}
+
+Three locally hosted instruction-tuned models are evaluated:
+
+\begin{itemize}
+    \item \textbf{Qwen2.5-1.5B-Instruct:} A general-purpose
+    instruction-tuned model with approximately 1.5 billion parameters.
+    \item \textbf{Qwen2.5-3B-Instruct:} A larger general-purpose
+    instruction-tuned model with approximately 3 billion parameters.
+    \item \textbf{Qwen2.5-Coder-1.5B-Instruct:} A 1.5-billion-parameter
+    model specialized for coding-related tasks.
+\end{itemize}
+
+The model selection enables comparisons between models of different
+sizes and between general-purpose and task-specialized models.
+Comparing the two 1.5-billion-parameter models also provides an
+opportunity to investigate whether task specialization can improve
+performance without requiring a larger model.
+
+\subsection{Benchmark and Task Categories}
+
+The evaluation consists of three task categories:
+
+\begin{enumerate}
+    \item \textbf{Factual question answering:} Prompts requiring the
+    model to identify or produce a correct factual answer.
+    \item \textbf{Summarization:} Prompts requiring the model to
+    generate a concise summary of provided information.
+    \item \textbf{Code generation:} Prompts requiring the model to
+    generate code that satisfies a specified programming problem.
+\end{enumerate}
+
+The preliminary benchmark contains 100 prompts per category, for a
+total of 300 prompts. Each of the three models is evaluated on all
+300 prompts, resulting in 900 inference runs.
+
+\subsection{Energy Measurement}
+
+GPU energy consumption is measured using NVIDIA's Management Library
+(NVML), which provides access to GPU power telemetry. Rather than
+relying on total system power measurements, this approach measures
+GPU board power during inference.
+
+GPU power is sampled at intervals of approximately 0.05 seconds while
+each request is being processed. The measured power values are
+integrated over the inference interval using the trapezoidal rule to
+estimate energy consumption. For power samples $P_i$ recorded at times
+$t_i$, the estimated energy consumption is
+
+\begin{equation}
+E = \sum_{i=1}^{n-1}
+\frac{P_i + P_{i+1}}{2}(t_{i+1}-t_i),
+\label{eq:energy}
+\end{equation}
+
+where $E$ is energy in joules, $P_i$ represents GPU power in watts,
+and $t_i$ represents the corresponding measurement time in seconds.
+
+This method provides an estimate of GPU energy attributable to each
+inference request. It does not represent total system energy
+consumption.
+
+\subsection{Performance Metrics}
+
+The evaluation considers three primary performance metrics:
+
+\begin{itemize}
+    \item \textbf{Inference latency:} The elapsed time required to
+    generate a response, measured in seconds.
+    \item \textbf{Generated tokens:} The number of tokens produced by
+    the model for a request.
+    \item \textbf{Token generation throughput:} The number of generated
+    tokens per second, calculated by dividing the generated token
+    count by inference latency.
+\end{itemize}
+
+Energy consumption and performance are analyzed together to evaluate
+the computational cost of generating responses.
+
+\subsection{Response Quality Evaluation}
+
+Because the three task categories require different types of outputs,
+task-specific evaluation metrics are used.
+
+\begin{itemize}
+    \item \textbf{Factual question answering:} Accuracy is measured by
+    comparing the model's extracted multiple-choice answer against
+    the reference answer.
+    \item \textbf{Summarization:} ROUGE-L is used to measure overlap
+    between generated summaries and reference summaries based on the
+    longest common subsequence.
+    \item \textbf{Code generation:} MBPP+ pass@1 is used to evaluate
+    whether generated code passes the associated programming tests.
+\end{itemize}
+
+These metrics provide task-specific measures of response quality.
+Their values are not directly interchangeable across task categories.
+
+\section{Experimental Setup}
+
+\subsection{Hardware and Software Environment}
+
+The preliminary experiments were conducted using a Google Colab
+environment equipped with an NVIDIA L4 GPU. The models
+were loaded and executed locally within the environment using the
+Hugging Face Transformers library and PyTorch.
+
+GPU power measurements were collected through NVML. The experimental
+implementation also used Python libraries for benchmark processing,
+data storage, and response evaluation.
+
+\subsection{Inference Configuration}
+
+Each model was evaluated using the same benchmark prompts and a
+consistent inference procedure. A system instruction was used to
+encourage concise responses:
+
+\begin{quote}
+\texttt{Answer the user's question clearly and concisely.}
+\end{quote}
+
+The maximum input length was limited to 1,024 tokens. Maximum
+generation lengths were configured by task category, as shown in
+Table~\ref{tab:generation-limits}.
+
+\begin{table}[t]
+\caption{Task-Specific Maximum Generation Lengths}
+\label{tab:generation-limits}
+\centering
+\begin{tabular}{lc}
+\toprule
+\textbf{Task Category} & \textbf{Maximum New Tokens} \\
+\midrule
+Factual question answering & 4 \\
+Summarization & 128 \\
+Code generation & 256 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Generation was configured for deterministic decoding with sampling
+disabled. The task-specific generation limits were used to constrain
+inference workloads and reflect differences in expected response
+length.
+
+\subsection{Experimental Procedure}
+
+For each benchmark prompt, the inference procedure was performed
+independently for all three models. Before and after inference, GPU
+synchronization was used to ensure that the measured execution
+interval corresponded to completed model operations.
+
+During each request, the experiment recorded inference latency,
+generated token count, token generation throughput, GPU power samples,
+and estimated GPU energy consumption. Generated responses were
+subsequently evaluated using the corresponding task-specific quality
+metric.
+
+The resulting measurements were stored in CSV files for subsequent
+statistical analysis. The preliminary dataset contains 900 inference
+records, with 100 observations for each model--task combination.
+
+\subsection{Preliminary and Final Evaluation}
+
+The initial experiments were conducted on the Google Colab L4 GPU
+to establish the measurement and evaluation procedure and obtain
+preliminary comparisons among the selected models.
+
+Additional experiments are planned on the UTCS Condor GPU cluster
+using an NVIDIA GTX 1080 Ti. These experiments will provide a second
+hardware configuration for evaluating the models and will serve as
+the primary results for the final analysis.
+
+The two experimental environments will be reported separately to
+avoid attributing differences in hardware performance to model size
+or task specialization. Comparisons across environments will be
+interpreted with consideration for differences in GPU architecture
+and hardware capabilities.
+
+\section{Results}
+
+\section{Discussion}
+
+\section{Limitations and Future Work}
+
+\section{Conclusion}
+
+\section*{Acknowledgment}
+
+\begin{thebibliography}{00}
+\bibitem{b1} International Energy Agency, Energy and AI. Paris, France: IEA, Apr. 2025. [Online]. Available: https://www.iea.org/reports/energy-and-ai
+\bibitem{b2} J. Fernandez, C. Na, V. Tiwari, Y. Bisk, S. Luccioni, and E. Strubell, “Energy considerations of large language model inference and efficiency optimizations,” in Proc. 63rd Annu. Meeting of the Association for Computational Linguistics (ACL), Vienna, Austria, 2025, pp. 32556–32569. doi: 10.18653/v1/2025.acl-long.1563.
+\bibitem{b3} F. Caravaca, Á. Cuevas, and R. Cuevas, “From prompts to power: Measuring the energy footprint of LLM inference,” arXiv preprint arXiv:2511.05597, 2025. [Online]. Available: https://arxiv.org/abs/2511.05597
+\bibitem{b4} A. Chatterji, T. Cunningham, D. J. Deming, Z. Hitzig, C. Ong, C. Y. Shan, and K. Wadman, “How people use ChatGPT,” NBER Working Paper No. 34255, Sep. 2025. doi: 10.3386/w34255.
+\bibitem{b5} R. Bommasani et al., “Holistic evaluation of language models,” arXiv preprint arXiv:2211.09110, 2022. [Online]. Available: https://arxiv.org/abs/2211.09110
+\bibitem{b6} Hugging Face, “Transformers documentation: Quickstart,” Hugging Face. [Online]. Available: https://huggingface.co/docs/transformers/quicktour. Accessed: Sep. 24, 2026.
+\bibitem{b7} M. Chkir, S. M. Danish, J. Höll, and A. Asad, “Understanding the energy scaling of large language model inference across context lengths and attention architectures,” arXiv preprint arXiv:2608.25096, 2026. [Online]. Available: https://arxiv.org/abs/2608.25096
+\bibitem{b8} Texas Advanced Computing Center, “Vista documentation,” University of Texas at Austin. [Online]. Available: https://docs.tacc.utexas.edu/hpc/vista/. Accessed: Sep. 24, 2026.
+\bibitem{b9} S. Liu, ``Wi-Fi Energy Detection Testbed (12MTC),'' 2023, gitHub repository. [Online]. Available: https://github.com/liustone99/Wi-Fi-Energy-Detection-Testbed-12MTC
+\end{thebibliography}
+
+\end{document}
