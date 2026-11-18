@@ -3,5 +3,5 @@
 2. Copy the following files: benchmark_prompts.csv, llm_energy_gpu.py, llm_energy_gpu.sh, llm_energy_gpu.sub.
 3. Edit llm_energy_gpu.sub to send notification to your email
 4. source /lusr/opt/miniconda/bin/activate pytorch-cuda
-5. python -m pip install --user transformers rouge-score evalplus nvidia-ml-py
+5. python -m pip install --user "transformers==4.49.0" "tokenizers==0.21.4" pandas nvidia-ml-py rouge-score evalplus
 6. condor_submit llm_energy_gpu.sub
