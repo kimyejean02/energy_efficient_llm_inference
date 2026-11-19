@@ -4,6 +4,12 @@ set -euo pipefail
 # Activate the UTCS-provided PyTorch/CUDA environment.
 source /lusr/opt/miniconda/bin/activate pytorch-cuda
 
+# Store Hugging Face models in scratch space
+export HF_HOME="/scratch/cluster/ishaj/huggingface" # Change directory
+export HF_HUB_CACHE="$HF_HOME/hub"
+
+mkdir -p "$HF_HUB_CACHE"
+
 # Enable the response-quality grading section in llm_energy_gpu.py.
 export RUN_GRADING=1
 
