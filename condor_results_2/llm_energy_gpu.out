@@ -1,0 +1,2658 @@
+Python: /lusr/opt/miniconda/envs/pytorch-cuda/bin/python
+Python 3.12.2
+PyTorch: 2.4.0
+CUDA available: True
+GPU: NVIDIA GeForce GTX 1080 Ti
+NVML power monitoring enabled.
+
+=================================================================
+Loading small_1.5B: Qwen/Qwen2.5-1.5B-Instruct
+
+small_1.5B | Query 1/300 | factual_qa | mmlu_9993
+
+small_1.5B | Query 2/300 | factual_qa | mmlu_6273
+
+small_1.5B | Query 3/300 | factual_qa | mmlu_8064
+
+small_1.5B | Query 4/300 | factual_qa | mmlu_4918
+
+small_1.5B | Query 5/300 | factual_qa | mmlu_6963
+
+small_1.5B | Query 6/300 | factual_qa | mmlu_7871
+
+small_1.5B | Query 7/300 | factual_qa | mmlu_11518
+
+small_1.5B | Query 8/300 | factual_qa | mmlu_12253
+
+small_1.5B | Query 9/300 | factual_qa | mmlu_358
+
+small_1.5B | Query 10/300 | factual_qa | mmlu_6909
+
+small_1.5B | Query 11/300 | factual_qa | mmlu_7050
+
+small_1.5B | Query 12/300 | factual_qa | mmlu_10176
+
+small_1.5B | Query 13/300 | factual_qa | mmlu_495
+
+small_1.5B | Query 14/300 | factual_qa | mmlu_2165
+
+small_1.5B | Query 15/300 | factual_qa | mmlu_4808
+
+small_1.5B | Query 16/300 | factual_qa | mmlu_11336
+
+small_1.5B | Query 17/300 | factual_qa | mmlu_5842
+
+small_1.5B | Query 18/300 | factual_qa | mmlu_6420
+
+small_1.5B | Query 19/300 | factual_qa | mmlu_11178
+
+small_1.5B | Query 20/300 | factual_qa | mmlu_5084
+
+small_1.5B | Query 21/300 | factual_qa | mmlu_10651
+
+small_1.5B | Query 22/300 | factual_qa | mmlu_7342
+
+small_1.5B | Query 23/300 | factual_qa | mmlu_522
+
+small_1.5B | Query 24/300 | factual_qa | mmlu_10635
+
+small_1.5B | Query 25/300 | factual_qa | mmlu_11393
+
+small_1.5B | Query 26/300 | factual_qa | mmlu_3238
+
+small_1.5B | Query 27/300 | factual_qa | mmlu_10755
+
+small_1.5B | Query 28/300 | factual_qa | mmlu_6403
+
+small_1.5B | Query 29/300 | factual_qa | mmlu_1604
+
+small_1.5B | Query 30/300 | factual_qa | mmlu_1748
+
+small_1.5B | Query 31/300 | factual_qa | mmlu_2061
+
+small_1.5B | Query 32/300 | factual_qa | mmlu_1729
+
+small_1.5B | Query 33/300 | factual_qa | mmlu_5415
+
+small_1.5B | Query 34/300 | factual_qa | mmlu_11066
+
+small_1.5B | Query 35/300 | factual_qa | mmlu_8748
+
+small_1.5B | Query 36/300 | factual_qa | mmlu_3558
+
+small_1.5B | Query 37/300 | factual_qa | mmlu_7634
+
+small_1.5B | Query 38/300 | factual_qa | mmlu_9620
+
+small_1.5B | Query 39/300 | factual_qa | mmlu_5757
+
+small_1.5B | Query 40/300 | factual_qa | mmlu_4804
+
+small_1.5B | Query 41/300 | factual_qa | mmlu_497
+
+small_1.5B | Query 42/300 | factual_qa | mmlu_3006
+
+small_1.5B | Query 43/300 | factual_qa | mmlu_12229
+
+small_1.5B | Query 44/300 | factual_qa | mmlu_2357
+
+small_1.5B | Query 45/300 | factual_qa | mmlu_651
+
+small_1.5B | Query 46/300 | factual_qa | mmlu_9149
+
+small_1.5B | Query 47/300 | factual_qa | mmlu_3139
+
+small_1.5B | Query 48/300 | factual_qa | mmlu_6953
+
+small_1.5B | Query 49/300 | factual_qa | mmlu_11278
+
+small_1.5B | Query 50/300 | factual_qa | mmlu_1457
+
+small_1.5B | Query 51/300 | factual_qa | mmlu_3847
+
+small_1.5B | Query 52/300 | factual_qa | mmlu_6117
+
+small_1.5B | Query 53/300 | factual_qa | mmlu_4862
+
+small_1.5B | Query 54/300 | factual_qa | mmlu_9107
+
+small_1.5B | Query 55/300 | factual_qa | mmlu_9323
+
+small_1.5B | Query 56/300 | factual_qa | mmlu_7353
+
+small_1.5B | Query 57/300 | factual_qa | mmlu_7824
+
+small_1.5B | Query 58/300 | factual_qa | mmlu_713
+
+small_1.5B | Query 59/300 | factual_qa | mmlu_4716
+
+small_1.5B | Query 60/300 | factual_qa | mmlu_8275
+
+small_1.5B | Query 61/300 | factual_qa | mmlu_2988
+
+small_1.5B | Query 62/300 | factual_qa | mmlu_8229
+
+small_1.5B | Query 63/300 | factual_qa | mmlu_4677
+
+small_1.5B | Query 64/300 | factual_qa | mmlu_261
+
+small_1.5B | Query 65/300 | factual_qa | mmlu_5456
+
+small_1.5B | Query 66/300 | factual_qa | mmlu_2222
+
+small_1.5B | Query 67/300 | factual_qa | mmlu_6524
+
+small_1.5B | Query 68/300 | factual_qa | mmlu_1280
+
+small_1.5B | Query 69/300 | factual_qa | mmlu_2943
+
+small_1.5B | Query 70/300 | factual_qa | mmlu_782
+
+small_1.5B | Query 71/300 | factual_qa | mmlu_9336
+
+small_1.5B | Query 72/300 | factual_qa | mmlu_3786
+
+small_1.5B | Query 73/300 | factual_qa | mmlu_1934
+
+small_1.5B | Query 74/300 | factual_qa | mmlu_1355
+
+small_1.5B | Query 75/300 | factual_qa | mmlu_10290
+
+small_1.5B | Query 76/300 | factual_qa | mmlu_10710
+
+small_1.5B | Query 77/300 | factual_qa | mmlu_9376
+
+small_1.5B | Query 78/300 | factual_qa | mmlu_9590
+
+small_1.5B | Query 79/300 | factual_qa | mmlu_10731
+
+small_1.5B | Query 80/300 | factual_qa | mmlu_5985
+
+small_1.5B | Query 81/300 | factual_qa | mmlu_10832
+
+small_1.5B | Query 82/300 | factual_qa | mmlu_4516
+
+small_1.5B | Query 83/300 | factual_qa | mmlu_2819
+
+small_1.5B | Query 84/300 | factual_qa | mmlu_9104
+
+small_1.5B | Query 85/300 | factual_qa | mmlu_6202
+
+small_1.5B | Query 86/300 | factual_qa | mmlu_9391
+
+small_1.5B | Query 87/300 | factual_qa | mmlu_2057
+
+small_1.5B | Query 88/300 | factual_qa | mmlu_10269
+
+small_1.5B | Query 89/300 | factual_qa | mmlu_8251
+
+small_1.5B | Query 90/300 | factual_qa | mmlu_9896
+
+small_1.5B | Query 91/300 | factual_qa | mmlu_2187
+
+small_1.5B | Query 92/300 | factual_qa | mmlu_7411
+
+small_1.5B | Query 93/300 | factual_qa | mmlu_5446
+
+small_1.5B | Query 94/300 | factual_qa | mmlu_9167
+
+small_1.5B | Query 95/300 | factual_qa | mmlu_9034
+
+small_1.5B | Query 96/300 | factual_qa | mmlu_4604
+
+small_1.5B | Query 97/300 | factual_qa | mmlu_647
+
+small_1.5B | Query 98/300 | factual_qa | mmlu_6577
+
+small_1.5B | Query 99/300 | factual_qa | mmlu_4563
+
+small_1.5B | Query 100/300 | factual_qa | mmlu_357
+
+small_1.5B | Query 101/300 | summarization | xsum_34162733
+
+small_1.5B | Query 102/300 | summarization | xsum_29065811
+
+small_1.5B | Query 103/300 | summarization | xsum_39312689
+
+small_1.5B | Query 104/300 | summarization | xsum_35934687
+
+small_1.5B | Query 105/300 | summarization | xsum_40692502
+
+small_1.5B | Query 106/300 | summarization | xsum_38731631
+
+small_1.5B | Query 107/300 | summarization | xsum_37549394
+
+small_1.5B | Query 108/300 | summarization | xsum_35725859
+
+small_1.5B | Query 109/300 | summarization | xsum_38113695
+
+small_1.5B | Query 110/300 | summarization | xsum_35345872
+
+small_1.5B | Query 111/300 | summarization | xsum_32628240
+
+small_1.5B | Query 112/300 | summarization | xsum_28615802
+
+small_1.5B | Query 113/300 | summarization | xsum_38142273
+
+small_1.5B | Query 114/300 | summarization | xsum_38549663
+
+small_1.5B | Query 115/300 | summarization | xsum_28196617
+
+small_1.5B | Query 116/300 | summarization | xsum_35786821
+
+small_1.5B | Query 117/300 | summarization | xsum_34931205
+
+small_1.5B | Query 118/300 | summarization | xsum_33945501
+
+small_1.5B | Query 119/300 | summarization | xsum_33326726
+
+small_1.5B | Query 120/300 | summarization | xsum_37459229
+
+small_1.5B | Query 121/300 | summarization | xsum_27468430
+
+small_1.5B | Query 122/300 | summarization | xsum_40210331
+
+small_1.5B | Query 123/300 | summarization | xsum_36706313
+
+small_1.5B | Query 124/300 | summarization | xsum_37479429
+
+small_1.5B | Query 125/300 | summarization | xsum_31615309
+
+small_1.5B | Query 126/300 | summarization | xsum_33348459
+
+small_1.5B | Query 127/300 | summarization | xsum_32521780
+
+small_1.5B | Query 128/300 | summarization | xsum_38054956
+
+small_1.5B | Query 129/300 | summarization | xsum_36950083
+
+small_1.5B | Query 130/300 | summarization | xsum_34319804
+
+small_1.5B | Query 131/300 | summarization | xsum_36752579
+
+small_1.5B | Query 132/300 | summarization | xsum_18611647
+
+small_1.5B | Query 133/300 | summarization | xsum_40448904
+
+small_1.5B | Query 134/300 | summarization | xsum_37152513
+
+small_1.5B | Query 135/300 | summarization | xsum_36255369
+
+small_1.5B | Query 136/300 | summarization | xsum_14677158
+
+small_1.5B | Query 137/300 | summarization | xsum_38143080
+
+small_1.5B | Query 138/300 | summarization | xsum_33446602
+
+small_1.5B | Query 139/300 | summarization | xsum_36023108
+
+small_1.5B | Query 140/300 | summarization | xsum_30632453
+
+small_1.5B | Query 141/300 | summarization | xsum_38484254
+
+small_1.5B | Query 142/300 | summarization | xsum_31953513
+
+small_1.5B | Query 143/300 | summarization | xsum_36953276
+
+small_1.5B | Query 144/300 | summarization | xsum_34713109
+
+small_1.5B | Query 145/300 | summarization | xsum_39000618
+
+small_1.5B | Query 146/300 | summarization | xsum_30843034
+
+small_1.5B | Query 147/300 | summarization | xsum_37130065
+
+small_1.5B | Query 148/300 | summarization | xsum_37628523
+
+small_1.5B | Query 149/300 | summarization | xsum_37034440
+
+small_1.5B | Query 150/300 | summarization | xsum_35075826
+
+small_1.5B | Query 151/300 | summarization | xsum_30655881
+
+small_1.5B | Query 152/300 | summarization | xsum_35086370
+
+small_1.5B | Query 153/300 | summarization | xsum_40713752
+
+small_1.5B | Query 154/300 | summarization | xsum_37276607
+
+small_1.5B | Query 155/300 | summarization | xsum_36570567
+
+small_1.5B | Query 156/300 | summarization | xsum_35595691
+
+small_1.5B | Query 157/300 | summarization | xsum_34932158
+
+small_1.5B | Query 158/300 | summarization | xsum_39799961
+
+small_1.5B | Query 159/300 | summarization | xsum_38802811
+
+small_1.5B | Query 160/300 | summarization | xsum_35934685
+
+small_1.5B | Query 161/300 | summarization | xsum_34063718
+
+small_1.5B | Query 162/300 | summarization | xsum_34172701
+
+small_1.5B | Query 163/300 | summarization | xsum_28972309
+
+small_1.5B | Query 164/300 | summarization | xsum_36019234
+
+small_1.5B | Query 165/300 | summarization | xsum_32297010
+
+small_1.5B | Query 166/300 | summarization | xsum_36354778
+
+small_1.5B | Query 167/300 | summarization | xsum_31012671
+
+small_1.5B | Query 168/300 | summarization | xsum_35411078
+
+small_1.5B | Query 169/300 | summarization | xsum_33103763
+
+small_1.5B | Query 170/300 | summarization | xsum_39165373
+
+small_1.5B | Query 171/300 | summarization | xsum_37444207
+
+small_1.5B | Query 172/300 | summarization | xsum_33605075
+
+small_1.5B | Query 173/300 | summarization | xsum_29146012
+
+small_1.5B | Query 174/300 | summarization | xsum_36639163
+
+small_1.5B | Query 175/300 | summarization | xsum_37276902
+
+small_1.5B | Query 176/300 | summarization | xsum_36116564
+
+small_1.5B | Query 177/300 | summarization | xsum_40661203
+
+small_1.5B | Query 178/300 | summarization | xsum_33915371
+
+small_1.5B | Query 179/300 | summarization | xsum_36912152
+
+small_1.5B | Query 180/300 | summarization | xsum_39221869
+
+small_1.5B | Query 181/300 | summarization | xsum_23610747
+
+small_1.5B | Query 182/300 | summarization | xsum_28139799
+
+small_1.5B | Query 183/300 | summarization | xsum_26090874
+
+small_1.5B | Query 184/300 | summarization | xsum_36119346
+
+small_1.5B | Query 185/300 | summarization | xsum_39501904
+
+small_1.5B | Query 186/300 | summarization | xsum_36605379
+
+small_1.5B | Query 187/300 | summarization | xsum_38749858
+
+small_1.5B | Query 188/300 | summarization | xsum_35488481
+
+small_1.5B | Query 189/300 | summarization | xsum_30062503
+
+small_1.5B | Query 190/300 | summarization | xsum_36068836
+
+small_1.5B | Query 191/300 | summarization | xsum_36471059
+
+small_1.5B | Query 192/300 | summarization | xsum_37982293
+
+small_1.5B | Query 193/300 | summarization | xsum_38320357
+
+small_1.5B | Query 194/300 | summarization | xsum_40533502
+
+small_1.5B | Query 195/300 | summarization | xsum_37184668
+
+small_1.5B | Query 196/300 | summarization | xsum_32201626
+
+small_1.5B | Query 197/300 | summarization | xsum_39598923
+
+small_1.5B | Query 198/300 | summarization | xsum_35539455
+
+small_1.5B | Query 199/300 | summarization | xsum_36161488
+
+small_1.5B | Query 200/300 | summarization | xsum_22051542
+
+small_1.5B | Query 201/300 | coding | Mbpp/773
+
+small_1.5B | Query 202/300 | coding | Mbpp/227
+
+small_1.5B | Query 203/300 | coding | Mbpp/116
+
+small_1.5B | Query 204/300 | coding | Mbpp/415
+
+small_1.5B | Query 205/300 | coding | Mbpp/391
+
+small_1.5B | Query 206/300 | coding | Mbpp/301
+
+small_1.5B | Query 207/300 | coding | Mbpp/250
+
+small_1.5B | Query 208/300 | coding | Mbpp/20
+
+small_1.5B | Query 209/300 | coding | Mbpp/797
+
+small_1.5B | Query 210/300 | coding | Mbpp/720
+
+small_1.5B | Query 211/300 | coding | Mbpp/168
+
+small_1.5B | Query 212/300 | coding | Mbpp/745
+
+small_1.5B | Query 213/300 | coding | Mbpp/585
+
+small_1.5B | Query 214/300 | coding | Mbpp/120
+
+small_1.5B | Query 215/300 | coding | Mbpp/12
+
+small_1.5B | Query 216/300 | coding | Mbpp/171
+
+small_1.5B | Query 217/300 | coding | Mbpp/299
+
+small_1.5B | Query 218/300 | coding | Mbpp/310
+
+small_1.5B | Query 219/300 | coding | Mbpp/630
+
+small_1.5B | Query 220/300 | coding | Mbpp/752
+
+small_1.5B | Query 221/300 | coding | Mbpp/118
+
+small_1.5B | Query 222/300 | coding | Mbpp/730
+
+small_1.5B | Query 223/300 | coding | Mbpp/284
+
+small_1.5B | Query 224/300 | coding | Mbpp/781
+
+small_1.5B | Query 225/300 | coding | Mbpp/90
+
+small_1.5B | Query 226/300 | coding | Mbpp/581
+
+small_1.5B | Query 227/300 | coding | Mbpp/3
+
+small_1.5B | Query 228/300 | coding | Mbpp/598
+
+small_1.5B | Query 229/300 | coding | Mbpp/744
+
+small_1.5B | Query 230/300 | coding | Mbpp/419
+
+small_1.5B | Query 231/300 | coding | Mbpp/103
+
+small_1.5B | Query 232/300 | coding | Mbpp/262
+
+small_1.5B | Query 233/300 | coding | Mbpp/88
+
+small_1.5B | Query 234/300 | coding | Mbpp/460
+
+small_1.5B | Query 235/300 | coding | Mbpp/799
+
+small_1.5B | Query 236/300 | coding | Mbpp/260
+
+small_1.5B | Query 237/300 | coding | Mbpp/297
+
+small_1.5B | Query 238/300 | coding | Mbpp/458
+
+small_1.5B | Query 239/300 | coding | Mbpp/92
+
+small_1.5B | Query 240/300 | coding | Mbpp/85
+
+small_1.5B | Query 241/300 | coding | Mbpp/559
+
+small_1.5B | Query 242/300 | coding | Mbpp/18
+
+small_1.5B | Query 243/300 | coding | Mbpp/474
+
+small_1.5B | Query 244/300 | coding | Mbpp/463
+
+small_1.5B | Query 245/300 | coding | Mbpp/753
+
+small_1.5B | Query 246/300 | coding | Mbpp/409
+
+small_1.5B | Query 247/300 | coding | Mbpp/128
+
+small_1.5B | Query 248/300 | coding | Mbpp/604
+
+small_1.5B | Query 249/300 | coding | Mbpp/69
+
+small_1.5B | Query 250/300 | coding | Mbpp/237
+
+small_1.5B | Query 251/300 | coding | Mbpp/558
+
+small_1.5B | Query 252/300 | coding | Mbpp/162
+
+small_1.5B | Query 253/300 | coding | Mbpp/723
+
+small_1.5B | Query 254/300 | coding | Mbpp/428
+
+small_1.5B | Query 255/300 | coding | Mbpp/767
+
+small_1.5B | Query 256/300 | coding | Mbpp/762
+
+small_1.5B | Query 257/300 | coding | Mbpp/476
+
+small_1.5B | Query 258/300 | coding | Mbpp/739
+
+small_1.5B | Query 259/300 | coding | Mbpp/281
+
+small_1.5B | Query 260/300 | coding | Mbpp/142
+
+small_1.5B | Query 261/300 | coding | Mbpp/129
+
+small_1.5B | Query 262/300 | coding | Mbpp/306
+
+small_1.5B | Query 263/300 | coding | Mbpp/426
+
+small_1.5B | Query 264/300 | coding | Mbpp/772
+
+small_1.5B | Query 265/300 | coding | Mbpp/82
+
+small_1.5B | Query 266/300 | coding | Mbpp/2
+
+small_1.5B | Query 267/300 | coding | Mbpp/787
+
+small_1.5B | Query 268/300 | coding | Mbpp/793
+
+small_1.5B | Query 269/300 | coding | Mbpp/600
+
+small_1.5B | Query 270/300 | coding | Mbpp/477
+
+small_1.5B | Query 271/300 | coding | Mbpp/265
+
+small_1.5B | Query 272/300 | coding | Mbpp/554
+
+small_1.5B | Query 273/300 | coding | Mbpp/472
+
+small_1.5B | Query 274/300 | coding | Mbpp/293
+
+small_1.5B | Query 275/300 | coding | Mbpp/410
+
+small_1.5B | Query 276/300 | coding | Mbpp/145
+
+small_1.5B | Query 277/300 | coding | Mbpp/269
+
+small_1.5B | Query 278/300 | coding | Mbpp/68
+
+small_1.5B | Query 279/300 | coding | Mbpp/95
+
+small_1.5B | Query 280/300 | coding | Mbpp/751
+
+small_1.5B | Query 281/300 | coding | Mbpp/605
+
+small_1.5B | Query 282/300 | coding | Mbpp/755
+
+small_1.5B | Query 283/300 | coding | Mbpp/413
+
+small_1.5B | Query 284/300 | coding | Mbpp/726
+
+small_1.5B | Query 285/300 | coding | Mbpp/800
+
+small_1.5B | Query 286/300 | coding | Mbpp/451
+
+small_1.5B | Query 287/300 | coding | Mbpp/135
+
+small_1.5B | Query 288/300 | coding | Mbpp/308
+
+small_1.5B | Query 289/300 | coding | Mbpp/87
+
+small_1.5B | Query 290/300 | coding | Mbpp/445
+
+small_1.5B | Query 291/300 | coding | Mbpp/57
+
+small_1.5B | Query 292/300 | coding | Mbpp/412
+
+small_1.5B | Query 293/300 | coding | Mbpp/140
+
+small_1.5B | Query 294/300 | coding | Mbpp/294
+
+small_1.5B | Query 295/300 | coding | Mbpp/731
+
+small_1.5B | Query 296/300 | coding | Mbpp/725
+
+small_1.5B | Query 297/300 | coding | Mbpp/628
+
+small_1.5B | Query 298/300 | coding | Mbpp/567
+
+small_1.5B | Query 299/300 | coding | Mbpp/603
+
+small_1.5B | Query 300/300 | coding | Mbpp/252
+
+=================================================================
+Loading large_3B: Qwen/Qwen2.5-3B-Instruct
+
+large_3B | Query 1/300 | factual_qa | mmlu_9993
+
+large_3B | Query 2/300 | factual_qa | mmlu_6273
+
+large_3B | Query 3/300 | factual_qa | mmlu_8064
+
+large_3B | Query 4/300 | factual_qa | mmlu_4918
+
+large_3B | Query 5/300 | factual_qa | mmlu_6963
+
+large_3B | Query 6/300 | factual_qa | mmlu_7871
+
+large_3B | Query 7/300 | factual_qa | mmlu_11518
+
+large_3B | Query 8/300 | factual_qa | mmlu_12253
+
+large_3B | Query 9/300 | factual_qa | mmlu_358
+
+large_3B | Query 10/300 | factual_qa | mmlu_6909
+
+large_3B | Query 11/300 | factual_qa | mmlu_7050
+
+large_3B | Query 12/300 | factual_qa | mmlu_10176
+
+large_3B | Query 13/300 | factual_qa | mmlu_495
+
+large_3B | Query 14/300 | factual_qa | mmlu_2165
+
+large_3B | Query 15/300 | factual_qa | mmlu_4808
+
+large_3B | Query 16/300 | factual_qa | mmlu_11336
+
+large_3B | Query 17/300 | factual_qa | mmlu_5842
+
+large_3B | Query 18/300 | factual_qa | mmlu_6420
+
+large_3B | Query 19/300 | factual_qa | mmlu_11178
+
+large_3B | Query 20/300 | factual_qa | mmlu_5084
+
+large_3B | Query 21/300 | factual_qa | mmlu_10651
+
+large_3B | Query 22/300 | factual_qa | mmlu_7342
+
+large_3B | Query 23/300 | factual_qa | mmlu_522
+
+large_3B | Query 24/300 | factual_qa | mmlu_10635
+
+large_3B | Query 25/300 | factual_qa | mmlu_11393
+
+large_3B | Query 26/300 | factual_qa | mmlu_3238
+
+large_3B | Query 27/300 | factual_qa | mmlu_10755
+
+large_3B | Query 28/300 | factual_qa | mmlu_6403
+
+large_3B | Query 29/300 | factual_qa | mmlu_1604
+
+large_3B | Query 30/300 | factual_qa | mmlu_1748
+
+large_3B | Query 31/300 | factual_qa | mmlu_2061
+
+large_3B | Query 32/300 | factual_qa | mmlu_1729
+
+large_3B | Query 33/300 | factual_qa | mmlu_5415
+
+large_3B | Query 34/300 | factual_qa | mmlu_11066
+
+large_3B | Query 35/300 | factual_qa | mmlu_8748
+
+large_3B | Query 36/300 | factual_qa | mmlu_3558
+
+large_3B | Query 37/300 | factual_qa | mmlu_7634
+
+large_3B | Query 38/300 | factual_qa | mmlu_9620
+
+large_3B | Query 39/300 | factual_qa | mmlu_5757
+
+large_3B | Query 40/300 | factual_qa | mmlu_4804
+
+large_3B | Query 41/300 | factual_qa | mmlu_497
+
+large_3B | Query 42/300 | factual_qa | mmlu_3006
+
+large_3B | Query 43/300 | factual_qa | mmlu_12229
+
+large_3B | Query 44/300 | factual_qa | mmlu_2357
+
+large_3B | Query 45/300 | factual_qa | mmlu_651
+
+large_3B | Query 46/300 | factual_qa | mmlu_9149
+
+large_3B | Query 47/300 | factual_qa | mmlu_3139
+
+large_3B | Query 48/300 | factual_qa | mmlu_6953
+
+large_3B | Query 49/300 | factual_qa | mmlu_11278
+
+large_3B | Query 50/300 | factual_qa | mmlu_1457
+
+large_3B | Query 51/300 | factual_qa | mmlu_3847
+
+large_3B | Query 52/300 | factual_qa | mmlu_6117
+
+large_3B | Query 53/300 | factual_qa | mmlu_4862
+
+large_3B | Query 54/300 | factual_qa | mmlu_9107
+
+large_3B | Query 55/300 | factual_qa | mmlu_9323
+
+large_3B | Query 56/300 | factual_qa | mmlu_7353
+
+large_3B | Query 57/300 | factual_qa | mmlu_7824
+
+large_3B | Query 58/300 | factual_qa | mmlu_713
+
+large_3B | Query 59/300 | factual_qa | mmlu_4716
+
+large_3B | Query 60/300 | factual_qa | mmlu_8275
+
+large_3B | Query 61/300 | factual_qa | mmlu_2988
+
+large_3B | Query 62/300 | factual_qa | mmlu_8229
+
+large_3B | Query 63/300 | factual_qa | mmlu_4677
+
+large_3B | Query 64/300 | factual_qa | mmlu_261
+
+large_3B | Query 65/300 | factual_qa | mmlu_5456
+
+large_3B | Query 66/300 | factual_qa | mmlu_2222
+
+large_3B | Query 67/300 | factual_qa | mmlu_6524
+
+large_3B | Query 68/300 | factual_qa | mmlu_1280
+
+large_3B | Query 69/300 | factual_qa | mmlu_2943
+
+large_3B | Query 70/300 | factual_qa | mmlu_782
+
+large_3B | Query 71/300 | factual_qa | mmlu_9336
+
+large_3B | Query 72/300 | factual_qa | mmlu_3786
+
+large_3B | Query 73/300 | factual_qa | mmlu_1934
+
+large_3B | Query 74/300 | factual_qa | mmlu_1355
+
+large_3B | Query 75/300 | factual_qa | mmlu_10290
+
+large_3B | Query 76/300 | factual_qa | mmlu_10710
+
+large_3B | Query 77/300 | factual_qa | mmlu_9376
+
+large_3B | Query 78/300 | factual_qa | mmlu_9590
+
+large_3B | Query 79/300 | factual_qa | mmlu_10731
+
+large_3B | Query 80/300 | factual_qa | mmlu_5985
+
+large_3B | Query 81/300 | factual_qa | mmlu_10832
+
+large_3B | Query 82/300 | factual_qa | mmlu_4516
+
+large_3B | Query 83/300 | factual_qa | mmlu_2819
+
+large_3B | Query 84/300 | factual_qa | mmlu_9104
+
+large_3B | Query 85/300 | factual_qa | mmlu_6202
+
+large_3B | Query 86/300 | factual_qa | mmlu_9391
+
+large_3B | Query 87/300 | factual_qa | mmlu_2057
+
+large_3B | Query 88/300 | factual_qa | mmlu_10269
+
+large_3B | Query 89/300 | factual_qa | mmlu_8251
+
+large_3B | Query 90/300 | factual_qa | mmlu_9896
+
+large_3B | Query 91/300 | factual_qa | mmlu_2187
+
+large_3B | Query 92/300 | factual_qa | mmlu_7411
+
+large_3B | Query 93/300 | factual_qa | mmlu_5446
+
+large_3B | Query 94/300 | factual_qa | mmlu_9167
+
+large_3B | Query 95/300 | factual_qa | mmlu_9034
+
+large_3B | Query 96/300 | factual_qa | mmlu_4604
+
+large_3B | Query 97/300 | factual_qa | mmlu_647
+
+large_3B | Query 98/300 | factual_qa | mmlu_6577
+
+large_3B | Query 99/300 | factual_qa | mmlu_4563
+
+large_3B | Query 100/300 | factual_qa | mmlu_357
+
+large_3B | Query 101/300 | summarization | xsum_34162733
+
+large_3B | Query 102/300 | summarization | xsum_29065811
+
+large_3B | Query 103/300 | summarization | xsum_39312689
+
+large_3B | Query 104/300 | summarization | xsum_35934687
+
+large_3B | Query 105/300 | summarization | xsum_40692502
+
+large_3B | Query 106/300 | summarization | xsum_38731631
+
+large_3B | Query 107/300 | summarization | xsum_37549394
+
+large_3B | Query 108/300 | summarization | xsum_35725859
+
+large_3B | Query 109/300 | summarization | xsum_38113695
+
+large_3B | Query 110/300 | summarization | xsum_35345872
+
+large_3B | Query 111/300 | summarization | xsum_32628240
+
+large_3B | Query 112/300 | summarization | xsum_28615802
+
+large_3B | Query 113/300 | summarization | xsum_38142273
+
+large_3B | Query 114/300 | summarization | xsum_38549663
+
+large_3B | Query 115/300 | summarization | xsum_28196617
+
+large_3B | Query 116/300 | summarization | xsum_35786821
+
+large_3B | Query 117/300 | summarization | xsum_34931205
+
+large_3B | Query 118/300 | summarization | xsum_33945501
+
+large_3B | Query 119/300 | summarization | xsum_33326726
+
+large_3B | Query 120/300 | summarization | xsum_37459229
+
+large_3B | Query 121/300 | summarization | xsum_27468430
+
+large_3B | Query 122/300 | summarization | xsum_40210331
+
+large_3B | Query 123/300 | summarization | xsum_36706313
+
+large_3B | Query 124/300 | summarization | xsum_37479429
+
+large_3B | Query 125/300 | summarization | xsum_31615309
+
+large_3B | Query 126/300 | summarization | xsum_33348459
+
+large_3B | Query 127/300 | summarization | xsum_32521780
+
+large_3B | Query 128/300 | summarization | xsum_38054956
+
+large_3B | Query 129/300 | summarization | xsum_36950083
+
+large_3B | Query 130/300 | summarization | xsum_34319804
+
+large_3B | Query 131/300 | summarization | xsum_36752579
+
+large_3B | Query 132/300 | summarization | xsum_18611647
+
+large_3B | Query 133/300 | summarization | xsum_40448904
+
+large_3B | Query 134/300 | summarization | xsum_37152513
+
+large_3B | Query 135/300 | summarization | xsum_36255369
+
+large_3B | Query 136/300 | summarization | xsum_14677158
+
+large_3B | Query 137/300 | summarization | xsum_38143080
+
+large_3B | Query 138/300 | summarization | xsum_33446602
+
+large_3B | Query 139/300 | summarization | xsum_36023108
+
+large_3B | Query 140/300 | summarization | xsum_30632453
+
+large_3B | Query 141/300 | summarization | xsum_38484254
+
+large_3B | Query 142/300 | summarization | xsum_31953513
+
+large_3B | Query 143/300 | summarization | xsum_36953276
+
+large_3B | Query 144/300 | summarization | xsum_34713109
+
+large_3B | Query 145/300 | summarization | xsum_39000618
+
+large_3B | Query 146/300 | summarization | xsum_30843034
+
+large_3B | Query 147/300 | summarization | xsum_37130065
+
+large_3B | Query 148/300 | summarization | xsum_37628523
+
+large_3B | Query 149/300 | summarization | xsum_37034440
+
+large_3B | Query 150/300 | summarization | xsum_35075826
+
+large_3B | Query 151/300 | summarization | xsum_30655881
+
+large_3B | Query 152/300 | summarization | xsum_35086370
+
+large_3B | Query 153/300 | summarization | xsum_40713752
+
+large_3B | Query 154/300 | summarization | xsum_37276607
+
+large_3B | Query 155/300 | summarization | xsum_36570567
+
+large_3B | Query 156/300 | summarization | xsum_35595691
+
+large_3B | Query 157/300 | summarization | xsum_34932158
+
+large_3B | Query 158/300 | summarization | xsum_39799961
+
+large_3B | Query 159/300 | summarization | xsum_38802811
+
+large_3B | Query 160/300 | summarization | xsum_35934685
+
+large_3B | Query 161/300 | summarization | xsum_34063718
+
+large_3B | Query 162/300 | summarization | xsum_34172701
+
+large_3B | Query 163/300 | summarization | xsum_28972309
+
+large_3B | Query 164/300 | summarization | xsum_36019234
+
+large_3B | Query 165/300 | summarization | xsum_32297010
+
+large_3B | Query 166/300 | summarization | xsum_36354778
+
+large_3B | Query 167/300 | summarization | xsum_31012671
+
+large_3B | Query 168/300 | summarization | xsum_35411078
+
+large_3B | Query 169/300 | summarization | xsum_33103763
+
+large_3B | Query 170/300 | summarization | xsum_39165373
+
+large_3B | Query 171/300 | summarization | xsum_37444207
+
+large_3B | Query 172/300 | summarization | xsum_33605075
+
+large_3B | Query 173/300 | summarization | xsum_29146012
+
+large_3B | Query 174/300 | summarization | xsum_36639163
+
+large_3B | Query 175/300 | summarization | xsum_37276902
+
+large_3B | Query 176/300 | summarization | xsum_36116564
+
+large_3B | Query 177/300 | summarization | xsum_40661203
+
+large_3B | Query 178/300 | summarization | xsum_33915371
+
+large_3B | Query 179/300 | summarization | xsum_36912152
+
+large_3B | Query 180/300 | summarization | xsum_39221869
+
+large_3B | Query 181/300 | summarization | xsum_23610747
+
+large_3B | Query 182/300 | summarization | xsum_28139799
+
+large_3B | Query 183/300 | summarization | xsum_26090874
+
+large_3B | Query 184/300 | summarization | xsum_36119346
+
+large_3B | Query 185/300 | summarization | xsum_39501904
+
+large_3B | Query 186/300 | summarization | xsum_36605379
+
+large_3B | Query 187/300 | summarization | xsum_38749858
+
+large_3B | Query 188/300 | summarization | xsum_35488481
+
+large_3B | Query 189/300 | summarization | xsum_30062503
+
+large_3B | Query 190/300 | summarization | xsum_36068836
+
+large_3B | Query 191/300 | summarization | xsum_36471059
+
+large_3B | Query 192/300 | summarization | xsum_37982293
+
+large_3B | Query 193/300 | summarization | xsum_38320357
+
+large_3B | Query 194/300 | summarization | xsum_40533502
+
+large_3B | Query 195/300 | summarization | xsum_37184668
+
+large_3B | Query 196/300 | summarization | xsum_32201626
+
+large_3B | Query 197/300 | summarization | xsum_39598923
+
+large_3B | Query 198/300 | summarization | xsum_35539455
+
+large_3B | Query 199/300 | summarization | xsum_36161488
+
+large_3B | Query 200/300 | summarization | xsum_22051542
+
+large_3B | Query 201/300 | coding | Mbpp/773
+
+large_3B | Query 202/300 | coding | Mbpp/227
+
+large_3B | Query 203/300 | coding | Mbpp/116
+
+large_3B | Query 204/300 | coding | Mbpp/415
+
+large_3B | Query 205/300 | coding | Mbpp/391
+
+large_3B | Query 206/300 | coding | Mbpp/301
+
+large_3B | Query 207/300 | coding | Mbpp/250
+
+large_3B | Query 208/300 | coding | Mbpp/20
+
+large_3B | Query 209/300 | coding | Mbpp/797
+
+large_3B | Query 210/300 | coding | Mbpp/720
+
+large_3B | Query 211/300 | coding | Mbpp/168
+
+large_3B | Query 212/300 | coding | Mbpp/745
+
+large_3B | Query 213/300 | coding | Mbpp/585
+
+large_3B | Query 214/300 | coding | Mbpp/120
+
+large_3B | Query 215/300 | coding | Mbpp/12
+
+large_3B | Query 216/300 | coding | Mbpp/171
+
+large_3B | Query 217/300 | coding | Mbpp/299
+
+large_3B | Query 218/300 | coding | Mbpp/310
+
+large_3B | Query 219/300 | coding | Mbpp/630
+
+large_3B | Query 220/300 | coding | Mbpp/752
+
+large_3B | Query 221/300 | coding | Mbpp/118
+
+large_3B | Query 222/300 | coding | Mbpp/730
+
+large_3B | Query 223/300 | coding | Mbpp/284
+
+large_3B | Query 224/300 | coding | Mbpp/781
+
+large_3B | Query 225/300 | coding | Mbpp/90
+
+large_3B | Query 226/300 | coding | Mbpp/581
+
+large_3B | Query 227/300 | coding | Mbpp/3
+
+large_3B | Query 228/300 | coding | Mbpp/598
+
+large_3B | Query 229/300 | coding | Mbpp/744
+
+large_3B | Query 230/300 | coding | Mbpp/419
+
+large_3B | Query 231/300 | coding | Mbpp/103
+
+large_3B | Query 232/300 | coding | Mbpp/262
+
+large_3B | Query 233/300 | coding | Mbpp/88
+
+large_3B | Query 234/300 | coding | Mbpp/460
+
+large_3B | Query 235/300 | coding | Mbpp/799
+
+large_3B | Query 236/300 | coding | Mbpp/260
+
+large_3B | Query 237/300 | coding | Mbpp/297
+
+large_3B | Query 238/300 | coding | Mbpp/458
+
+large_3B | Query 239/300 | coding | Mbpp/92
+
+large_3B | Query 240/300 | coding | Mbpp/85
+
+large_3B | Query 241/300 | coding | Mbpp/559
+
+large_3B | Query 242/300 | coding | Mbpp/18
+
+large_3B | Query 243/300 | coding | Mbpp/474
+
+large_3B | Query 244/300 | coding | Mbpp/463
+
+large_3B | Query 245/300 | coding | Mbpp/753
+
+large_3B | Query 246/300 | coding | Mbpp/409
+
+large_3B | Query 247/300 | coding | Mbpp/128
+
+large_3B | Query 248/300 | coding | Mbpp/604
+
+large_3B | Query 249/300 | coding | Mbpp/69
+
+large_3B | Query 250/300 | coding | Mbpp/237
+
+large_3B | Query 251/300 | coding | Mbpp/558
+
+large_3B | Query 252/300 | coding | Mbpp/162
+
+large_3B | Query 253/300 | coding | Mbpp/723
+
+large_3B | Query 254/300 | coding | Mbpp/428
+
+large_3B | Query 255/300 | coding | Mbpp/767
+
+large_3B | Query 256/300 | coding | Mbpp/762
+
+large_3B | Query 257/300 | coding | Mbpp/476
+
+large_3B | Query 258/300 | coding | Mbpp/739
+
+large_3B | Query 259/300 | coding | Mbpp/281
+
+large_3B | Query 260/300 | coding | Mbpp/142
+
+large_3B | Query 261/300 | coding | Mbpp/129
+
+large_3B | Query 262/300 | coding | Mbpp/306
+
+large_3B | Query 263/300 | coding | Mbpp/426
+
+large_3B | Query 264/300 | coding | Mbpp/772
+
+large_3B | Query 265/300 | coding | Mbpp/82
+
+large_3B | Query 266/300 | coding | Mbpp/2
+
+large_3B | Query 267/300 | coding | Mbpp/787
+
+large_3B | Query 268/300 | coding | Mbpp/793
+
+large_3B | Query 269/300 | coding | Mbpp/600
+
+large_3B | Query 270/300 | coding | Mbpp/477
+
+large_3B | Query 271/300 | coding | Mbpp/265
+
+large_3B | Query 272/300 | coding | Mbpp/554
+
+large_3B | Query 273/300 | coding | Mbpp/472
+
+large_3B | Query 274/300 | coding | Mbpp/293
+
+large_3B | Query 275/300 | coding | Mbpp/410
+
+large_3B | Query 276/300 | coding | Mbpp/145
+
+large_3B | Query 277/300 | coding | Mbpp/269
+
+large_3B | Query 278/300 | coding | Mbpp/68
+
+large_3B | Query 279/300 | coding | Mbpp/95
+
+large_3B | Query 280/300 | coding | Mbpp/751
+
+large_3B | Query 281/300 | coding | Mbpp/605
+
+large_3B | Query 282/300 | coding | Mbpp/755
+
+large_3B | Query 283/300 | coding | Mbpp/413
+
+large_3B | Query 284/300 | coding | Mbpp/726
+
+large_3B | Query 285/300 | coding | Mbpp/800
+
+large_3B | Query 286/300 | coding | Mbpp/451
+
+large_3B | Query 287/300 | coding | Mbpp/135
+
+large_3B | Query 288/300 | coding | Mbpp/308
+
+large_3B | Query 289/300 | coding | Mbpp/87
+
+large_3B | Query 290/300 | coding | Mbpp/445
+
+large_3B | Query 291/300 | coding | Mbpp/57
+
+large_3B | Query 292/300 | coding | Mbpp/412
+
+large_3B | Query 293/300 | coding | Mbpp/140
+
+large_3B | Query 294/300 | coding | Mbpp/294
+
+large_3B | Query 295/300 | coding | Mbpp/731
+
+large_3B | Query 296/300 | coding | Mbpp/725
+
+large_3B | Query 297/300 | coding | Mbpp/628
+
+large_3B | Query 298/300 | coding | Mbpp/567
+
+large_3B | Query 299/300 | coding | Mbpp/603
+
+large_3B | Query 300/300 | coding | Mbpp/252
+
+=================================================================
+Loading coder_1.5B: Qwen/Qwen2.5-Coder-1.5B-Instruct
+
+coder_1.5B | Query 201/300 | coding | Mbpp/773
+
+coder_1.5B | Query 202/300 | coding | Mbpp/227
+
+coder_1.5B | Query 203/300 | coding | Mbpp/116
+
+coder_1.5B | Query 204/300 | coding | Mbpp/415
+
+coder_1.5B | Query 205/300 | coding | Mbpp/391
+
+coder_1.5B | Query 206/300 | coding | Mbpp/301
+
+coder_1.5B | Query 207/300 | coding | Mbpp/250
+
+coder_1.5B | Query 208/300 | coding | Mbpp/20
+
+coder_1.5B | Query 209/300 | coding | Mbpp/797
+
+coder_1.5B | Query 210/300 | coding | Mbpp/720
+
+coder_1.5B | Query 211/300 | coding | Mbpp/168
+
+coder_1.5B | Query 212/300 | coding | Mbpp/745
+
+coder_1.5B | Query 213/300 | coding | Mbpp/585
+
+coder_1.5B | Query 214/300 | coding | Mbpp/120
+
+coder_1.5B | Query 215/300 | coding | Mbpp/12
+
+coder_1.5B | Query 216/300 | coding | Mbpp/171
+
+coder_1.5B | Query 217/300 | coding | Mbpp/299
+
+coder_1.5B | Query 218/300 | coding | Mbpp/310
+
+coder_1.5B | Query 219/300 | coding | Mbpp/630
+
+coder_1.5B | Query 220/300 | coding | Mbpp/752
+
+coder_1.5B | Query 221/300 | coding | Mbpp/118
+
+coder_1.5B | Query 222/300 | coding | Mbpp/730
+
+coder_1.5B | Query 223/300 | coding | Mbpp/284
+
+coder_1.5B | Query 224/300 | coding | Mbpp/781
+
+coder_1.5B | Query 225/300 | coding | Mbpp/90
+
+coder_1.5B | Query 226/300 | coding | Mbpp/581
+
+coder_1.5B | Query 227/300 | coding | Mbpp/3
+
+coder_1.5B | Query 228/300 | coding | Mbpp/598
+
+coder_1.5B | Query 229/300 | coding | Mbpp/744
+
+coder_1.5B | Query 230/300 | coding | Mbpp/419
+
+coder_1.5B | Query 231/300 | coding | Mbpp/103
+
+coder_1.5B | Query 232/300 | coding | Mbpp/262
+
+coder_1.5B | Query 233/300 | coding | Mbpp/88
+
+coder_1.5B | Query 234/300 | coding | Mbpp/460
+
+coder_1.5B | Query 235/300 | coding | Mbpp/799
+
+coder_1.5B | Query 236/300 | coding | Mbpp/260
+
+coder_1.5B | Query 237/300 | coding | Mbpp/297
+
+coder_1.5B | Query 238/300 | coding | Mbpp/458
+
+coder_1.5B | Query 239/300 | coding | Mbpp/92
+
+coder_1.5B | Query 240/300 | coding | Mbpp/85
+
+coder_1.5B | Query 241/300 | coding | Mbpp/559
+
+coder_1.5B | Query 242/300 | coding | Mbpp/18
+
+coder_1.5B | Query 243/300 | coding | Mbpp/474
+
+coder_1.5B | Query 244/300 | coding | Mbpp/463
+
+coder_1.5B | Query 245/300 | coding | Mbpp/753
+
+coder_1.5B | Query 246/300 | coding | Mbpp/409
+
+coder_1.5B | Query 247/300 | coding | Mbpp/128
+
+coder_1.5B | Query 248/300 | coding | Mbpp/604
+
+coder_1.5B | Query 249/300 | coding | Mbpp/69
+
+coder_1.5B | Query 250/300 | coding | Mbpp/237
+
+coder_1.5B | Query 251/300 | coding | Mbpp/558
+
+coder_1.5B | Query 252/300 | coding | Mbpp/162
+
+coder_1.5B | Query 253/300 | coding | Mbpp/723
+
+coder_1.5B | Query 254/300 | coding | Mbpp/428
+
+coder_1.5B | Query 255/300 | coding | Mbpp/767
+
+coder_1.5B | Query 256/300 | coding | Mbpp/762
+
+coder_1.5B | Query 257/300 | coding | Mbpp/476
+
+coder_1.5B | Query 258/300 | coding | Mbpp/739
+
+coder_1.5B | Query 259/300 | coding | Mbpp/281
+
+coder_1.5B | Query 260/300 | coding | Mbpp/142
+
+coder_1.5B | Query 261/300 | coding | Mbpp/129
+
+coder_1.5B | Query 262/300 | coding | Mbpp/306
+
+coder_1.5B | Query 263/300 | coding | Mbpp/426
+
+coder_1.5B | Query 264/300 | coding | Mbpp/772
+
+coder_1.5B | Query 265/300 | coding | Mbpp/82
+
+coder_1.5B | Query 266/300 | coding | Mbpp/2
+
+coder_1.5B | Query 267/300 | coding | Mbpp/787
+
+coder_1.5B | Query 268/300 | coding | Mbpp/793
+
+coder_1.5B | Query 269/300 | coding | Mbpp/600
+
+coder_1.5B | Query 270/300 | coding | Mbpp/477
+
+coder_1.5B | Query 271/300 | coding | Mbpp/265
+
+coder_1.5B | Query 272/300 | coding | Mbpp/554
+
+coder_1.5B | Query 273/300 | coding | Mbpp/472
+
+coder_1.5B | Query 274/300 | coding | Mbpp/293
+
+coder_1.5B | Query 275/300 | coding | Mbpp/410
+
+coder_1.5B | Query 276/300 | coding | Mbpp/145
+
+coder_1.5B | Query 277/300 | coding | Mbpp/269
+
+coder_1.5B | Query 278/300 | coding | Mbpp/68
+
+coder_1.5B | Query 279/300 | coding | Mbpp/95
+
+coder_1.5B | Query 280/300 | coding | Mbpp/751
+
+coder_1.5B | Query 281/300 | coding | Mbpp/605
+
+coder_1.5B | Query 282/300 | coding | Mbpp/755
+
+coder_1.5B | Query 283/300 | coding | Mbpp/413
+
+coder_1.5B | Query 284/300 | coding | Mbpp/726
+
+coder_1.5B | Query 285/300 | coding | Mbpp/800
+
+coder_1.5B | Query 286/300 | coding | Mbpp/451
+
+coder_1.5B | Query 287/300 | coding | Mbpp/135
+
+coder_1.5B | Query 288/300 | coding | Mbpp/308
+
+coder_1.5B | Query 289/300 | coding | Mbpp/87
+
+coder_1.5B | Query 290/300 | coding | Mbpp/445
+
+coder_1.5B | Query 291/300 | coding | Mbpp/57
+
+coder_1.5B | Query 292/300 | coding | Mbpp/412
+
+coder_1.5B | Query 293/300 | coding | Mbpp/140
+
+coder_1.5B | Query 294/300 | coding | Mbpp/294
+
+coder_1.5B | Query 295/300 | coding | Mbpp/731
+
+coder_1.5B | Query 296/300 | coding | Mbpp/725
+
+coder_1.5B | Query 297/300 | coding | Mbpp/628
+
+coder_1.5B | Query 298/300 | coding | Mbpp/567
+
+coder_1.5B | Query 299/300 | coding | Mbpp/603
+
+coder_1.5B | Query 300/300 | coding | Mbpp/252
+
+=================================================================
+Loading summarizer_1.5B: agentlans/Qwen2.5-1.5B-Instruct-Summarizer
+
+summarizer_1.5B | Query 101/300 | summarization | xsum_34162733
+
+summarizer_1.5B | Query 102/300 | summarization | xsum_29065811
+
+summarizer_1.5B | Query 103/300 | summarization | xsum_39312689
+
+summarizer_1.5B | Query 104/300 | summarization | xsum_35934687
+
+summarizer_1.5B | Query 105/300 | summarization | xsum_40692502
+
+summarizer_1.5B | Query 106/300 | summarization | xsum_38731631
+
+summarizer_1.5B | Query 107/300 | summarization | xsum_37549394
+
+summarizer_1.5B | Query 108/300 | summarization | xsum_35725859
+
+summarizer_1.5B | Query 109/300 | summarization | xsum_38113695
+
+summarizer_1.5B | Query 110/300 | summarization | xsum_35345872
+
+summarizer_1.5B | Query 111/300 | summarization | xsum_32628240
+
+summarizer_1.5B | Query 112/300 | summarization | xsum_28615802
+
+summarizer_1.5B | Query 113/300 | summarization | xsum_38142273
+
+summarizer_1.5B | Query 114/300 | summarization | xsum_38549663
+
+summarizer_1.5B | Query 115/300 | summarization | xsum_28196617
+
+summarizer_1.5B | Query 116/300 | summarization | xsum_35786821
+
+summarizer_1.5B | Query 117/300 | summarization | xsum_34931205
+
+summarizer_1.5B | Query 118/300 | summarization | xsum_33945501
+
+summarizer_1.5B | Query 119/300 | summarization | xsum_33326726
+
+summarizer_1.5B | Query 120/300 | summarization | xsum_37459229
+
+summarizer_1.5B | Query 121/300 | summarization | xsum_27468430
+
+summarizer_1.5B | Query 122/300 | summarization | xsum_40210331
+
+summarizer_1.5B | Query 123/300 | summarization | xsum_36706313
+
+summarizer_1.5B | Query 124/300 | summarization | xsum_37479429
+
+summarizer_1.5B | Query 125/300 | summarization | xsum_31615309
+
+summarizer_1.5B | Query 126/300 | summarization | xsum_33348459
+
+summarizer_1.5B | Query 127/300 | summarization | xsum_32521780
+
+summarizer_1.5B | Query 128/300 | summarization | xsum_38054956
+
+summarizer_1.5B | Query 129/300 | summarization | xsum_36950083
+
+summarizer_1.5B | Query 130/300 | summarization | xsum_34319804
+
+summarizer_1.5B | Query 131/300 | summarization | xsum_36752579
+
+summarizer_1.5B | Query 132/300 | summarization | xsum_18611647
+
+summarizer_1.5B | Query 133/300 | summarization | xsum_40448904
+
+summarizer_1.5B | Query 134/300 | summarization | xsum_37152513
+
+summarizer_1.5B | Query 135/300 | summarization | xsum_36255369
+
+summarizer_1.5B | Query 136/300 | summarization | xsum_14677158
+
+summarizer_1.5B | Query 137/300 | summarization | xsum_38143080
+
+summarizer_1.5B | Query 138/300 | summarization | xsum_33446602
+
+summarizer_1.5B | Query 139/300 | summarization | xsum_36023108
+
+summarizer_1.5B | Query 140/300 | summarization | xsum_30632453
+
+summarizer_1.5B | Query 141/300 | summarization | xsum_38484254
+
+summarizer_1.5B | Query 142/300 | summarization | xsum_31953513
+
+summarizer_1.5B | Query 143/300 | summarization | xsum_36953276
+
+summarizer_1.5B | Query 144/300 | summarization | xsum_34713109
+
+summarizer_1.5B | Query 145/300 | summarization | xsum_39000618
+
+summarizer_1.5B | Query 146/300 | summarization | xsum_30843034
+
+summarizer_1.5B | Query 147/300 | summarization | xsum_37130065
+
+summarizer_1.5B | Query 148/300 | summarization | xsum_37628523
+
+summarizer_1.5B | Query 149/300 | summarization | xsum_37034440
+
+summarizer_1.5B | Query 150/300 | summarization | xsum_35075826
+
+summarizer_1.5B | Query 151/300 | summarization | xsum_30655881
+
+summarizer_1.5B | Query 152/300 | summarization | xsum_35086370
+
+summarizer_1.5B | Query 153/300 | summarization | xsum_40713752
+
+summarizer_1.5B | Query 154/300 | summarization | xsum_37276607
+
+summarizer_1.5B | Query 155/300 | summarization | xsum_36570567
+
+summarizer_1.5B | Query 156/300 | summarization | xsum_35595691
+
+summarizer_1.5B | Query 157/300 | summarization | xsum_34932158
+
+summarizer_1.5B | Query 158/300 | summarization | xsum_39799961
+
+summarizer_1.5B | Query 159/300 | summarization | xsum_38802811
+
+summarizer_1.5B | Query 160/300 | summarization | xsum_35934685
+
+summarizer_1.5B | Query 161/300 | summarization | xsum_34063718
+
+summarizer_1.5B | Query 162/300 | summarization | xsum_34172701
+
+summarizer_1.5B | Query 163/300 | summarization | xsum_28972309
+
+summarizer_1.5B | Query 164/300 | summarization | xsum_36019234
+
+summarizer_1.5B | Query 165/300 | summarization | xsum_32297010
+
+summarizer_1.5B | Query 166/300 | summarization | xsum_36354778
+
+summarizer_1.5B | Query 167/300 | summarization | xsum_31012671
+
+summarizer_1.5B | Query 168/300 | summarization | xsum_35411078
+
+summarizer_1.5B | Query 169/300 | summarization | xsum_33103763
+
+summarizer_1.5B | Query 170/300 | summarization | xsum_39165373
+
+summarizer_1.5B | Query 171/300 | summarization | xsum_37444207
+
+summarizer_1.5B | Query 172/300 | summarization | xsum_33605075
+
+summarizer_1.5B | Query 173/300 | summarization | xsum_29146012
+
+summarizer_1.5B | Query 174/300 | summarization | xsum_36639163
+
+summarizer_1.5B | Query 175/300 | summarization | xsum_37276902
+
+summarizer_1.5B | Query 176/300 | summarization | xsum_36116564
+
+summarizer_1.5B | Query 177/300 | summarization | xsum_40661203
+
+summarizer_1.5B | Query 178/300 | summarization | xsum_33915371
+
+summarizer_1.5B | Query 179/300 | summarization | xsum_36912152
+
+summarizer_1.5B | Query 180/300 | summarization | xsum_39221869
+
+summarizer_1.5B | Query 181/300 | summarization | xsum_23610747
+
+summarizer_1.5B | Query 182/300 | summarization | xsum_28139799
+
+summarizer_1.5B | Query 183/300 | summarization | xsum_26090874
+
+summarizer_1.5B | Query 184/300 | summarization | xsum_36119346
+
+summarizer_1.5B | Query 185/300 | summarization | xsum_39501904
+
+summarizer_1.5B | Query 186/300 | summarization | xsum_36605379
+
+summarizer_1.5B | Query 187/300 | summarization | xsum_38749858
+
+summarizer_1.5B | Query 188/300 | summarization | xsum_35488481
+
+summarizer_1.5B | Query 189/300 | summarization | xsum_30062503
+
+summarizer_1.5B | Query 190/300 | summarization | xsum_36068836
+
+summarizer_1.5B | Query 191/300 | summarization | xsum_36471059
+
+summarizer_1.5B | Query 192/300 | summarization | xsum_37982293
+
+summarizer_1.5B | Query 193/300 | summarization | xsum_38320357
+
+summarizer_1.5B | Query 194/300 | summarization | xsum_40533502
+
+summarizer_1.5B | Query 195/300 | summarization | xsum_37184668
+
+summarizer_1.5B | Query 196/300 | summarization | xsum_32201626
+
+summarizer_1.5B | Query 197/300 | summarization | xsum_39598923
+
+summarizer_1.5B | Query 198/300 | summarization | xsum_35539455
+
+summarizer_1.5B | Query 199/300 | summarization | xsum_36161488
+
+summarizer_1.5B | Query 200/300 | summarization | xsum_22051542
+
+Experiment complete.
+Total inference runs: 800
+model_name
+small_1.5B         300
+large_3B           300
+coder_1.5B         100
+summarizer_1.5B    100
+Name: count, dtype: int64
+
+Saved results to llm_energy_results.csv
+
+Loading small_1.5B for repeated MMLU energy measurements: Qwen/Qwen2.5-1.5B-Instruct
+small_1.5B | MMLU 1/100 | repeat 1/5 | 14.939 J
+small_1.5B | MMLU 1/100 | repeat 2/5 | 15.734 J
+small_1.5B | MMLU 1/100 | repeat 3/5 | 19.262 J
+small_1.5B | MMLU 1/100 | repeat 4/5 | 19.250 J
+small_1.5B | MMLU 1/100 | repeat 5/5 | 20.390 J
+small_1.5B | MMLU 2/100 | repeat 1/5 | 21.747 J
+small_1.5B | MMLU 2/100 | repeat 2/5 | 21.539 J
+small_1.5B | MMLU 2/100 | repeat 3/5 | 21.497 J
+small_1.5B | MMLU 2/100 | repeat 4/5 | 21.301 J
+small_1.5B | MMLU 2/100 | repeat 5/5 | 20.052 J
+small_1.5B | MMLU 3/100 | repeat 1/5 | 18.258 J
+small_1.5B | MMLU 3/100 | repeat 2/5 | 19.500 J
+small_1.5B | MMLU 3/100 | repeat 3/5 | 19.782 J
+small_1.5B | MMLU 3/100 | repeat 4/5 | 21.192 J
+small_1.5B | MMLU 3/100 | repeat 5/5 | 21.109 J
+small_1.5B | MMLU 4/100 | repeat 1/5 | 46.918 J
+small_1.5B | MMLU 4/100 | repeat 2/5 | 46.323 J
+small_1.5B | MMLU 4/100 | repeat 3/5 | 46.227 J
+small_1.5B | MMLU 4/100 | repeat 4/5 | 46.998 J
+small_1.5B | MMLU 4/100 | repeat 5/5 | 46.891 J
+small_1.5B | MMLU 5/100 | repeat 1/5 | 19.122 J
+small_1.5B | MMLU 5/100 | repeat 2/5 | 19.536 J
+small_1.5B | MMLU 5/100 | repeat 3/5 | 19.755 J
+small_1.5B | MMLU 5/100 | repeat 4/5 | 20.053 J
+small_1.5B | MMLU 5/100 | repeat 5/5 | 20.691 J
+small_1.5B | MMLU 6/100 | repeat 1/5 | 19.692 J
+small_1.5B | MMLU 6/100 | repeat 2/5 | 19.109 J
+small_1.5B | MMLU 6/100 | repeat 3/5 | 18.865 J
+small_1.5B | MMLU 6/100 | repeat 4/5 | 19.873 J
+small_1.5B | MMLU 6/100 | repeat 5/5 | 20.358 J
+small_1.5B | MMLU 7/100 | repeat 1/5 | 20.971 J
+small_1.5B | MMLU 7/100 | repeat 2/5 | 20.093 J
+small_1.5B | MMLU 7/100 | repeat 3/5 | 20.345 J
+small_1.5B | MMLU 7/100 | repeat 4/5 | 20.185 J
+small_1.5B | MMLU 7/100 | repeat 5/5 | 20.524 J
+small_1.5B | MMLU 8/100 | repeat 1/5 | 34.933 J
+small_1.5B | MMLU 8/100 | repeat 2/5 | 36.369 J
+small_1.5B | MMLU 8/100 | repeat 3/5 | 43.813 J
+small_1.5B | MMLU 8/100 | repeat 4/5 | 44.657 J
+small_1.5B | MMLU 8/100 | repeat 5/5 | 44.969 J
+small_1.5B | MMLU 9/100 | repeat 1/5 | 35.936 J
+small_1.5B | MMLU 9/100 | repeat 2/5 | 34.299 J
+small_1.5B | MMLU 9/100 | repeat 3/5 | 32.575 J
+small_1.5B | MMLU 9/100 | repeat 4/5 | 34.240 J
+small_1.5B | MMLU 9/100 | repeat 5/5 | 31.767 J
+small_1.5B | MMLU 10/100 | repeat 1/5 | 32.521 J
+small_1.5B | MMLU 10/100 | repeat 2/5 | 32.735 J
+small_1.5B | MMLU 10/100 | repeat 3/5 | 32.246 J
+small_1.5B | MMLU 10/100 | repeat 4/5 | 32.705 J
+small_1.5B | MMLU 10/100 | repeat 5/5 | 31.811 J
+small_1.5B | MMLU 11/100 | repeat 1/5 | 18.078 J
+small_1.5B | MMLU 11/100 | repeat 2/5 | 19.021 J
+small_1.5B | MMLU 11/100 | repeat 3/5 | 19.743 J
+small_1.5B | MMLU 11/100 | repeat 4/5 | 20.817 J
+small_1.5B | MMLU 11/100 | repeat 5/5 | 20.359 J
+small_1.5B | MMLU 12/100 | repeat 1/5 | 21.049 J
+small_1.5B | MMLU 12/100 | repeat 2/5 | 19.303 J
+small_1.5B | MMLU 12/100 | repeat 3/5 | 18.452 J
+small_1.5B | MMLU 12/100 | repeat 4/5 | 20.524 J
+small_1.5B | MMLU 12/100 | repeat 5/5 | 19.765 J
+small_1.5B | MMLU 13/100 | repeat 1/5 | 18.400 J
+small_1.5B | MMLU 13/100 | repeat 2/5 | 18.504 J
+small_1.5B | MMLU 13/100 | repeat 3/5 | 21.044 J
+small_1.5B | MMLU 13/100 | repeat 4/5 | 19.304 J
+small_1.5B | MMLU 13/100 | repeat 5/5 | 18.535 J
+small_1.5B | MMLU 14/100 | repeat 1/5 | 20.229 J
+small_1.5B | MMLU 14/100 | repeat 2/5 | 20.796 J
+small_1.5B | MMLU 14/100 | repeat 3/5 | 19.081 J
+small_1.5B | MMLU 14/100 | repeat 4/5 | 18.654 J
+small_1.5B | MMLU 14/100 | repeat 5/5 | 19.618 J
+small_1.5B | MMLU 15/100 | repeat 1/5 | 47.182 J
+small_1.5B | MMLU 15/100 | repeat 2/5 | 47.364 J
+small_1.5B | MMLU 15/100 | repeat 3/5 | 48.697 J
+small_1.5B | MMLU 15/100 | repeat 4/5 | 46.854 J
+small_1.5B | MMLU 15/100 | repeat 5/5 | 47.697 J
+small_1.5B | MMLU 16/100 | repeat 1/5 | 34.509 J
+small_1.5B | MMLU 16/100 | repeat 2/5 | 34.439 J
+small_1.5B | MMLU 16/100 | repeat 3/5 | 35.114 J
+small_1.5B | MMLU 16/100 | repeat 4/5 | 35.279 J
+small_1.5B | MMLU 16/100 | repeat 5/5 | 34.321 J
+small_1.5B | MMLU 17/100 | repeat 1/5 | 23.455 J
+small_1.5B | MMLU 17/100 | repeat 2/5 | 21.723 J
+small_1.5B | MMLU 17/100 | repeat 3/5 | 20.853 J
+small_1.5B | MMLU 17/100 | repeat 4/5 | 20.356 J
+small_1.5B | MMLU 17/100 | repeat 5/5 | 19.704 J
+small_1.5B | MMLU 18/100 | repeat 1/5 | 31.706 J
+small_1.5B | MMLU 18/100 | repeat 2/5 | 32.948 J
+small_1.5B | MMLU 18/100 | repeat 3/5 | 31.998 J
+small_1.5B | MMLU 18/100 | repeat 4/5 | 33.382 J
+small_1.5B | MMLU 18/100 | repeat 5/5 | 32.158 J
+small_1.5B | MMLU 19/100 | repeat 1/5 | 17.484 J
+small_1.5B | MMLU 19/100 | repeat 2/5 | 20.220 J
+small_1.5B | MMLU 19/100 | repeat 3/5 | 19.613 J
+small_1.5B | MMLU 19/100 | repeat 4/5 | 8.975 J
+small_1.5B | MMLU 19/100 | repeat 5/5 | 20.717 J
+small_1.5B | MMLU 20/100 | repeat 1/5 | 21.074 J
+small_1.5B | MMLU 20/100 | repeat 2/5 | 23.136 J
+small_1.5B | MMLU 20/100 | repeat 3/5 | 17.882 J
+small_1.5B | MMLU 20/100 | repeat 4/5 | 19.810 J
+small_1.5B | MMLU 20/100 | repeat 5/5 | 19.045 J
+small_1.5B | MMLU 21/100 | repeat 1/5 | 33.013 J
+small_1.5B | MMLU 21/100 | repeat 2/5 | 31.457 J
+small_1.5B | MMLU 21/100 | repeat 3/5 | 32.341 J
+small_1.5B | MMLU 21/100 | repeat 4/5 | 33.555 J
+small_1.5B | MMLU 21/100 | repeat 5/5 | 32.952 J
+small_1.5B | MMLU 22/100 | repeat 1/5 | 34.669 J
+small_1.5B | MMLU 22/100 | repeat 2/5 | 33.019 J
+small_1.5B | MMLU 22/100 | repeat 3/5 | 32.749 J
+small_1.5B | MMLU 22/100 | repeat 4/5 | 33.735 J
+small_1.5B | MMLU 22/100 | repeat 5/5 | 33.289 J
+small_1.5B | MMLU 23/100 | repeat 1/5 | 46.052 J
+small_1.5B | MMLU 23/100 | repeat 2/5 | 46.140 J
+small_1.5B | MMLU 23/100 | repeat 3/5 | 45.716 J
+small_1.5B | MMLU 23/100 | repeat 4/5 | 45.265 J
+small_1.5B | MMLU 23/100 | repeat 5/5 | 38.151 J
+small_1.5B | MMLU 24/100 | repeat 1/5 | 33.196 J
+small_1.5B | MMLU 24/100 | repeat 2/5 | 31.941 J
+small_1.5B | MMLU 24/100 | repeat 3/5 | 32.593 J
+small_1.5B | MMLU 24/100 | repeat 4/5 | 31.914 J
+small_1.5B | MMLU 24/100 | repeat 5/5 | 31.930 J
+small_1.5B | MMLU 25/100 | repeat 1/5 | 34.300 J
+small_1.5B | MMLU 25/100 | repeat 2/5 | 33.915 J
+small_1.5B | MMLU 25/100 | repeat 3/5 | 35.596 J
+small_1.5B | MMLU 25/100 | repeat 4/5 | 32.718 J
+small_1.5B | MMLU 25/100 | repeat 5/5 | 34.175 J
+small_1.5B | MMLU 26/100 | repeat 1/5 | 44.310 J
+small_1.5B | MMLU 26/100 | repeat 2/5 | 46.620 J
+small_1.5B | MMLU 26/100 | repeat 3/5 | 36.351 J
+small_1.5B | MMLU 26/100 | repeat 4/5 | 38.281 J
+small_1.5B | MMLU 26/100 | repeat 5/5 | 45.419 J
+small_1.5B | MMLU 27/100 | repeat 1/5 | 21.307 J
+small_1.5B | MMLU 27/100 | repeat 2/5 | 20.741 J
+small_1.5B | MMLU 27/100 | repeat 3/5 | 20.298 J
+small_1.5B | MMLU 27/100 | repeat 4/5 | 20.904 J
+small_1.5B | MMLU 27/100 | repeat 5/5 | 22.253 J
+small_1.5B | MMLU 28/100 | repeat 1/5 | 18.864 J
+small_1.5B | MMLU 28/100 | repeat 2/5 | 21.032 J
+small_1.5B | MMLU 28/100 | repeat 3/5 | 18.526 J
+small_1.5B | MMLU 28/100 | repeat 4/5 | 20.091 J
+small_1.5B | MMLU 28/100 | repeat 5/5 | 20.131 J
+small_1.5B | MMLU 29/100 | repeat 1/5 | 32.786 J
+small_1.5B | MMLU 29/100 | repeat 2/5 | 33.357 J
+small_1.5B | MMLU 29/100 | repeat 3/5 | 33.408 J
+small_1.5B | MMLU 29/100 | repeat 4/5 | 33.713 J
+small_1.5B | MMLU 29/100 | repeat 5/5 | 32.218 J
+small_1.5B | MMLU 30/100 | repeat 1/5 | 36.076 J
+small_1.5B | MMLU 30/100 | repeat 2/5 | 45.706 J
+small_1.5B | MMLU 30/100 | repeat 3/5 | 36.090 J
+small_1.5B | MMLU 30/100 | repeat 4/5 | 44.913 J
+small_1.5B | MMLU 30/100 | repeat 5/5 | 44.736 J
+small_1.5B | MMLU 31/100 | repeat 1/5 | 20.438 J
+small_1.5B | MMLU 31/100 | repeat 2/5 | 19.625 J
+small_1.5B | MMLU 31/100 | repeat 3/5 | 19.299 J
+small_1.5B | MMLU 31/100 | repeat 4/5 | 19.210 J
+small_1.5B | MMLU 31/100 | repeat 5/5 | 20.949 J
+small_1.5B | MMLU 32/100 | repeat 1/5 | 20.590 J
+small_1.5B | MMLU 32/100 | repeat 2/5 | 20.874 J
+small_1.5B | MMLU 32/100 | repeat 3/5 | 18.955 J
+small_1.5B | MMLU 32/100 | repeat 4/5 | 20.117 J
+small_1.5B | MMLU 32/100 | repeat 5/5 | 19.420 J
+small_1.5B | MMLU 33/100 | repeat 1/5 | 22.267 J
+small_1.5B | MMLU 33/100 | repeat 2/5 | 22.030 J
+small_1.5B | MMLU 33/100 | repeat 3/5 | 21.286 J
+small_1.5B | MMLU 33/100 | repeat 4/5 | 22.907 J
+small_1.5B | MMLU 33/100 | repeat 5/5 | 23.119 J
+small_1.5B | MMLU 34/100 | repeat 1/5 | 21.453 J
+small_1.5B | MMLU 34/100 | repeat 2/5 | 18.867 J
+small_1.5B | MMLU 34/100 | repeat 3/5 | 20.537 J
+small_1.5B | MMLU 34/100 | repeat 4/5 | 20.058 J
+small_1.5B | MMLU 34/100 | repeat 5/5 | 19.335 J
+small_1.5B | MMLU 35/100 | repeat 1/5 | 20.619 J
+small_1.5B | MMLU 35/100 | repeat 2/5 | 20.460 J
+small_1.5B | MMLU 35/100 | repeat 3/5 | 19.876 J
+small_1.5B | MMLU 35/100 | repeat 4/5 | 18.818 J
+small_1.5B | MMLU 35/100 | repeat 5/5 | 19.902 J
+small_1.5B | MMLU 36/100 | repeat 1/5 | 33.020 J
+small_1.5B | MMLU 36/100 | repeat 2/5 | 34.753 J
+small_1.5B | MMLU 36/100 | repeat 3/5 | 35.776 J
+small_1.5B | MMLU 36/100 | repeat 4/5 | 35.498 J
+small_1.5B | MMLU 36/100 | repeat 5/5 | 35.151 J
+small_1.5B | MMLU 37/100 | repeat 1/5 | 32.622 J
+small_1.5B | MMLU 37/100 | repeat 2/5 | 33.112 J
+small_1.5B | MMLU 37/100 | repeat 3/5 | 24.018 J
+small_1.5B | MMLU 37/100 | repeat 4/5 | 33.545 J
+small_1.5B | MMLU 37/100 | repeat 5/5 | 32.809 J
+small_1.5B | MMLU 38/100 | repeat 1/5 | 22.185 J
+small_1.5B | MMLU 38/100 | repeat 2/5 | 20.107 J
+small_1.5B | MMLU 38/100 | repeat 3/5 | 20.806 J
+small_1.5B | MMLU 38/100 | repeat 4/5 | 20.554 J
+small_1.5B | MMLU 38/100 | repeat 5/5 | 20.688 J
+small_1.5B | MMLU 39/100 | repeat 1/5 | 17.722 J
+small_1.5B | MMLU 39/100 | repeat 2/5 | 20.374 J
+small_1.5B | MMLU 39/100 | repeat 3/5 | 20.524 J
+small_1.5B | MMLU 39/100 | repeat 4/5 | 18.060 J
+small_1.5B | MMLU 39/100 | repeat 5/5 | 19.690 J
+small_1.5B | MMLU 40/100 | repeat 1/5 | 34.295 J
+small_1.5B | MMLU 40/100 | repeat 2/5 | 33.610 J
+small_1.5B | MMLU 40/100 | repeat 3/5 | 33.561 J
+small_1.5B | MMLU 40/100 | repeat 4/5 | 32.251 J
+small_1.5B | MMLU 40/100 | repeat 5/5 | 33.213 J
+small_1.5B | MMLU 41/100 | repeat 1/5 | 19.270 J
+small_1.5B | MMLU 41/100 | repeat 2/5 | 19.383 J
+small_1.5B | MMLU 41/100 | repeat 3/5 | 21.188 J
+small_1.5B | MMLU 41/100 | repeat 4/5 | 21.591 J
+small_1.5B | MMLU 41/100 | repeat 5/5 | 21.302 J
+small_1.5B | MMLU 42/100 | repeat 1/5 | 19.800 J
+small_1.5B | MMLU 42/100 | repeat 2/5 | 18.649 J
+small_1.5B | MMLU 42/100 | repeat 3/5 | 19.275 J
+small_1.5B | MMLU 42/100 | repeat 4/5 | 19.369 J
+small_1.5B | MMLU 42/100 | repeat 5/5 | 21.221 J
+small_1.5B | MMLU 43/100 | repeat 1/5 | 22.916 J
+small_1.5B | MMLU 43/100 | repeat 2/5 | 22.138 J
+small_1.5B | MMLU 43/100 | repeat 3/5 | 22.084 J
+small_1.5B | MMLU 43/100 | repeat 4/5 | 22.431 J
+small_1.5B | MMLU 43/100 | repeat 5/5 | 20.965 J
+small_1.5B | MMLU 44/100 | repeat 1/5 | 31.920 J
+small_1.5B | MMLU 44/100 | repeat 2/5 | 34.626 J
+small_1.5B | MMLU 44/100 | repeat 3/5 | 33.905 J
+small_1.5B | MMLU 44/100 | repeat 4/5 | 33.302 J
+small_1.5B | MMLU 44/100 | repeat 5/5 | 34.479 J
+small_1.5B | MMLU 45/100 | repeat 1/5 | 20.902 J
+small_1.5B | MMLU 45/100 | repeat 2/5 | 22.665 J
+small_1.5B | MMLU 45/100 | repeat 3/5 | 21.959 J
+small_1.5B | MMLU 45/100 | repeat 4/5 | 22.017 J
+small_1.5B | MMLU 45/100 | repeat 5/5 | 22.995 J
+small_1.5B | MMLU 46/100 | repeat 1/5 | 34.487 J
+small_1.5B | MMLU 46/100 | repeat 2/5 | 35.433 J
+small_1.5B | MMLU 46/100 | repeat 3/5 | 33.119 J
+small_1.5B | MMLU 46/100 | repeat 4/5 | 34.888 J
+small_1.5B | MMLU 46/100 | repeat 5/5 | 24.085 J
+small_1.5B | MMLU 47/100 | repeat 1/5 | 35.465 J
+small_1.5B | MMLU 47/100 | repeat 2/5 | 33.442 J
+small_1.5B | MMLU 47/100 | repeat 3/5 | 33.521 J
+small_1.5B | MMLU 47/100 | repeat 4/5 | 34.126 J
+small_1.5B | MMLU 47/100 | repeat 5/5 | 33.245 J
+small_1.5B | MMLU 48/100 | repeat 1/5 | 20.869 J
+small_1.5B | MMLU 48/100 | repeat 2/5 | 20.517 J
+small_1.5B | MMLU 48/100 | repeat 3/5 | 21.475 J
+small_1.5B | MMLU 48/100 | repeat 4/5 | 20.931 J
+small_1.5B | MMLU 48/100 | repeat 5/5 | 21.932 J
+small_1.5B | MMLU 49/100 | repeat 1/5 | 20.197 J
+small_1.5B | MMLU 49/100 | repeat 2/5 | 21.425 J
+small_1.5B | MMLU 49/100 | repeat 3/5 | 21.056 J
+small_1.5B | MMLU 49/100 | repeat 4/5 | 19.082 J
+small_1.5B | MMLU 49/100 | repeat 5/5 | 20.117 J
+small_1.5B | MMLU 50/100 | repeat 1/5 | 32.862 J
+small_1.5B | MMLU 50/100 | repeat 2/5 | 31.902 J
+small_1.5B | MMLU 50/100 | repeat 3/5 | 33.582 J
+small_1.5B | MMLU 50/100 | repeat 4/5 | 33.210 J
+small_1.5B | MMLU 50/100 | repeat 5/5 | 33.223 J
+small_1.5B | MMLU 51/100 | repeat 1/5 | 33.816 J
+small_1.5B | MMLU 51/100 | repeat 2/5 | 33.413 J
+small_1.5B | MMLU 51/100 | repeat 3/5 | 32.946 J
+small_1.5B | MMLU 51/100 | repeat 4/5 | 33.305 J
+small_1.5B | MMLU 51/100 | repeat 5/5 | 32.787 J
+small_1.5B | MMLU 52/100 | repeat 1/5 | 32.098 J
+small_1.5B | MMLU 52/100 | repeat 2/5 | 32.883 J
+small_1.5B | MMLU 52/100 | repeat 3/5 | 24.795 J
+small_1.5B | MMLU 52/100 | repeat 4/5 | 31.532 J
+small_1.5B | MMLU 52/100 | repeat 5/5 | 24.381 J
+small_1.5B | MMLU 53/100 | repeat 1/5 | 33.061 J
+small_1.5B | MMLU 53/100 | repeat 2/5 | 32.708 J
+small_1.5B | MMLU 53/100 | repeat 3/5 | 32.760 J
+small_1.5B | MMLU 53/100 | repeat 4/5 | 33.045 J
+small_1.5B | MMLU 53/100 | repeat 5/5 | 33.660 J
+small_1.5B | MMLU 54/100 | repeat 1/5 | 22.807 J
+small_1.5B | MMLU 54/100 | repeat 2/5 | 21.202 J
+small_1.5B | MMLU 54/100 | repeat 3/5 | 20.510 J
+small_1.5B | MMLU 54/100 | repeat 4/5 | 20.687 J
+small_1.5B | MMLU 54/100 | repeat 5/5 | 20.860 J
+small_1.5B | MMLU 55/100 | repeat 1/5 | 17.918 J
+small_1.5B | MMLU 55/100 | repeat 2/5 | 19.053 J
+small_1.5B | MMLU 55/100 | repeat 3/5 | 19.770 J
+small_1.5B | MMLU 55/100 | repeat 4/5 | 20.249 J
+small_1.5B | MMLU 55/100 | repeat 5/5 | 21.666 J
+small_1.5B | MMLU 56/100 | repeat 1/5 | 33.018 J
+small_1.5B | MMLU 56/100 | repeat 2/5 | 34.246 J
+small_1.5B | MMLU 56/100 | repeat 3/5 | 32.395 J
+small_1.5B | MMLU 56/100 | repeat 4/5 | 33.989 J
+small_1.5B | MMLU 56/100 | repeat 5/5 | 32.506 J
+small_1.5B | MMLU 57/100 | repeat 1/5 | 21.224 J
+small_1.5B | MMLU 57/100 | repeat 2/5 | 20.318 J
+small_1.5B | MMLU 57/100 | repeat 3/5 | 20.805 J
+small_1.5B | MMLU 57/100 | repeat 4/5 | 19.584 J
+small_1.5B | MMLU 57/100 | repeat 5/5 | 21.548 J
+small_1.5B | MMLU 58/100 | repeat 1/5 | 22.459 J
+small_1.5B | MMLU 58/100 | repeat 2/5 | 20.951 J
+small_1.5B | MMLU 58/100 | repeat 3/5 | 21.057 J
+small_1.5B | MMLU 58/100 | repeat 4/5 | 20.971 J
+small_1.5B | MMLU 58/100 | repeat 5/5 | 20.734 J
+small_1.5B | MMLU 59/100 | repeat 1/5 | 31.994 J
+small_1.5B | MMLU 59/100 | repeat 2/5 | 34.024 J
+small_1.5B | MMLU 59/100 | repeat 3/5 | 32.740 J
+small_1.5B | MMLU 59/100 | repeat 4/5 | 34.150 J
+small_1.5B | MMLU 59/100 | repeat 5/5 | 35.400 J
+small_1.5B | MMLU 60/100 | repeat 1/5 | 18.407 J
+small_1.5B | MMLU 60/100 | repeat 2/5 | 19.657 J
+small_1.5B | MMLU 60/100 | repeat 3/5 | 19.658 J
+small_1.5B | MMLU 60/100 | repeat 4/5 | 20.494 J
+small_1.5B | MMLU 60/100 | repeat 5/5 | 19.034 J
+small_1.5B | MMLU 61/100 | repeat 1/5 | 19.218 J
+small_1.5B | MMLU 61/100 | repeat 2/5 | 19.739 J
+small_1.5B | MMLU 61/100 | repeat 3/5 | 21.084 J
+small_1.5B | MMLU 61/100 | repeat 4/5 | 19.757 J
+small_1.5B | MMLU 61/100 | repeat 5/5 | 21.188 J
+small_1.5B | MMLU 62/100 | repeat 1/5 | 21.628 J
+small_1.5B | MMLU 62/100 | repeat 2/5 | 19.575 J
+small_1.5B | MMLU 62/100 | repeat 3/5 | 19.790 J
+small_1.5B | MMLU 62/100 | repeat 4/5 | 19.447 J
+small_1.5B | MMLU 62/100 | repeat 5/5 | 18.992 J
+small_1.5B | MMLU 63/100 | repeat 1/5 | 19.897 J
+small_1.5B | MMLU 63/100 | repeat 2/5 | 22.223 J
+small_1.5B | MMLU 63/100 | repeat 3/5 | 18.298 J
+small_1.5B | MMLU 63/100 | repeat 4/5 | 19.910 J
+small_1.5B | MMLU 63/100 | repeat 5/5 | 20.483 J
+small_1.5B | MMLU 64/100 | repeat 1/5 | 35.062 J
+small_1.5B | MMLU 64/100 | repeat 2/5 | 35.004 J
+small_1.5B | MMLU 64/100 | repeat 3/5 | 34.673 J
+small_1.5B | MMLU 64/100 | repeat 4/5 | 32.965 J
+small_1.5B | MMLU 64/100 | repeat 5/5 | 32.479 J
+small_1.5B | MMLU 65/100 | repeat 1/5 | 20.071 J
+small_1.5B | MMLU 65/100 | repeat 2/5 | 20.419 J
+small_1.5B | MMLU 65/100 | repeat 3/5 | 20.242 J
+small_1.5B | MMLU 65/100 | repeat 4/5 | 18.949 J
+small_1.5B | MMLU 65/100 | repeat 5/5 | 19.846 J
+small_1.5B | MMLU 66/100 | repeat 1/5 | 20.019 J
+small_1.5B | MMLU 66/100 | repeat 2/5 | 20.776 J
+small_1.5B | MMLU 66/100 | repeat 3/5 | 19.731 J
+small_1.5B | MMLU 66/100 | repeat 4/5 | 20.607 J
+small_1.5B | MMLU 66/100 | repeat 5/5 | 20.860 J
+small_1.5B | MMLU 67/100 | repeat 1/5 | 20.184 J
+small_1.5B | MMLU 67/100 | repeat 2/5 | 17.849 J
+small_1.5B | MMLU 67/100 | repeat 3/5 | 20.274 J
+small_1.5B | MMLU 67/100 | repeat 4/5 | 20.722 J
+small_1.5B | MMLU 67/100 | repeat 5/5 | 20.795 J
+small_1.5B | MMLU 68/100 | repeat 1/5 | 34.910 J
+small_1.5B | MMLU 68/100 | repeat 2/5 | 33.175 J
+small_1.5B | MMLU 68/100 | repeat 3/5 | 34.261 J
+small_1.5B | MMLU 68/100 | repeat 4/5 | 32.474 J
+small_1.5B | MMLU 68/100 | repeat 5/5 | 33.437 J
+small_1.5B | MMLU 69/100 | repeat 1/5 | 73.412 J
+small_1.5B | MMLU 69/100 | repeat 2/5 | 72.505 J
+small_1.5B | MMLU 69/100 | repeat 3/5 | 74.185 J
+small_1.5B | MMLU 69/100 | repeat 4/5 | 75.176 J
+small_1.5B | MMLU 69/100 | repeat 5/5 | 78.564 J
+small_1.5B | MMLU 70/100 | repeat 1/5 | 18.627 J
+small_1.5B | MMLU 70/100 | repeat 2/5 | 20.097 J
+small_1.5B | MMLU 70/100 | repeat 3/5 | 20.301 J
+small_1.5B | MMLU 70/100 | repeat 4/5 | 21.106 J
+small_1.5B | MMLU 70/100 | repeat 5/5 | 18.901 J
+small_1.5B | MMLU 71/100 | repeat 1/5 | 20.313 J
+small_1.5B | MMLU 71/100 | repeat 2/5 | 18.667 J
+small_1.5B | MMLU 71/100 | repeat 3/5 | 21.686 J
+small_1.5B | MMLU 71/100 | repeat 4/5 | 21.563 J
+small_1.5B | MMLU 71/100 | repeat 5/5 | 21.308 J
+small_1.5B | MMLU 72/100 | repeat 1/5 | 18.690 J
+small_1.5B | MMLU 72/100 | repeat 2/5 | 18.973 J
+small_1.5B | MMLU 72/100 | repeat 3/5 | 19.482 J
+small_1.5B | MMLU 72/100 | repeat 4/5 | 21.293 J
+small_1.5B | MMLU 72/100 | repeat 5/5 | 20.953 J
+small_1.5B | MMLU 73/100 | repeat 1/5 | 33.864 J
+small_1.5B | MMLU 73/100 | repeat 2/5 | 33.110 J
+small_1.5B | MMLU 73/100 | repeat 3/5 | 33.328 J
+small_1.5B | MMLU 73/100 | repeat 4/5 | 33.132 J
+small_1.5B | MMLU 73/100 | repeat 5/5 | 32.416 J
+small_1.5B | MMLU 74/100 | repeat 1/5 | 32.893 J
+small_1.5B | MMLU 74/100 | repeat 2/5 | 32.604 J
+small_1.5B | MMLU 74/100 | repeat 3/5 | 33.607 J
+small_1.5B | MMLU 74/100 | repeat 4/5 | 33.156 J
+small_1.5B | MMLU 74/100 | repeat 5/5 | 35.125 J
+small_1.5B | MMLU 75/100 | repeat 1/5 | 21.541 J
+small_1.5B | MMLU 75/100 | repeat 2/5 | 22.542 J
+small_1.5B | MMLU 75/100 | repeat 3/5 | 21.527 J
+small_1.5B | MMLU 75/100 | repeat 4/5 | 22.387 J
+small_1.5B | MMLU 75/100 | repeat 5/5 | 22.557 J
+small_1.5B | MMLU 76/100 | repeat 1/5 | 99.331 J
+small_1.5B | MMLU 76/100 | repeat 2/5 | 97.189 J
+small_1.5B | MMLU 76/100 | repeat 3/5 | 96.684 J
+small_1.5B | MMLU 76/100 | repeat 4/5 | 97.147 J
+small_1.5B | MMLU 76/100 | repeat 5/5 | 97.692 J
+small_1.5B | MMLU 77/100 | repeat 1/5 | 35.269 J
+small_1.5B | MMLU 77/100 | repeat 2/5 | 33.119 J
+small_1.5B | MMLU 77/100 | repeat 3/5 | 32.867 J
+small_1.5B | MMLU 77/100 | repeat 4/5 | 31.795 J
+small_1.5B | MMLU 77/100 | repeat 5/5 | 33.053 J
+small_1.5B | MMLU 78/100 | repeat 1/5 | 34.631 J
+small_1.5B | MMLU 78/100 | repeat 2/5 | 33.267 J
+small_1.5B | MMLU 78/100 | repeat 3/5 | 34.153 J
+small_1.5B | MMLU 78/100 | repeat 4/5 | 33.929 J
+small_1.5B | MMLU 78/100 | repeat 5/5 | 33.493 J
+small_1.5B | MMLU 79/100 | repeat 1/5 | 20.129 J
+small_1.5B | MMLU 79/100 | repeat 2/5 | 20.884 J
+small_1.5B | MMLU 79/100 | repeat 3/5 | 19.242 J
+small_1.5B | MMLU 79/100 | repeat 4/5 | 19.736 J
+small_1.5B | MMLU 79/100 | repeat 5/5 | 19.362 J
+small_1.5B | MMLU 80/100 | repeat 1/5 | 19.273 J
+small_1.5B | MMLU 80/100 | repeat 2/5 | 21.646 J
+small_1.5B | MMLU 80/100 | repeat 3/5 | 21.743 J
+small_1.5B | MMLU 80/100 | repeat 4/5 | 19.489 J
+small_1.5B | MMLU 80/100 | repeat 5/5 | 18.556 J
+small_1.5B | MMLU 81/100 | repeat 1/5 | 18.417 J
+small_1.5B | MMLU 81/100 | repeat 2/5 | 20.528 J
+small_1.5B | MMLU 81/100 | repeat 3/5 | 20.932 J
+small_1.5B | MMLU 81/100 | repeat 4/5 | 19.302 J
+small_1.5B | MMLU 81/100 | repeat 5/5 | 20.912 J
+small_1.5B | MMLU 82/100 | repeat 1/5 | 20.659 J
+small_1.5B | MMLU 82/100 | repeat 2/5 | 20.490 J
+small_1.5B | MMLU 82/100 | repeat 3/5 | 18.933 J
+small_1.5B | MMLU 82/100 | repeat 4/5 | 20.539 J
+small_1.5B | MMLU 82/100 | repeat 5/5 | 18.942 J
+small_1.5B | MMLU 83/100 | repeat 1/5 | 17.162 J
+small_1.5B | MMLU 83/100 | repeat 2/5 | 19.417 J
+small_1.5B | MMLU 83/100 | repeat 3/5 | 18.992 J
+small_1.5B | MMLU 83/100 | repeat 4/5 | 9.968 J
+small_1.5B | MMLU 83/100 | repeat 5/5 | 19.184 J
+small_1.5B | MMLU 84/100 | repeat 1/5 | 19.341 J
+small_1.5B | MMLU 84/100 | repeat 2/5 | 18.592 J
+small_1.5B | MMLU 84/100 | repeat 3/5 | 20.682 J
+small_1.5B | MMLU 84/100 | repeat 4/5 | 21.070 J
+small_1.5B | MMLU 84/100 | repeat 5/5 | 20.526 J
+small_1.5B | MMLU 85/100 | repeat 1/5 | 20.265 J
+small_1.5B | MMLU 85/100 | repeat 2/5 | 19.278 J
+small_1.5B | MMLU 85/100 | repeat 3/5 | 19.472 J
+small_1.5B | MMLU 85/100 | repeat 4/5 | 20.547 J
+small_1.5B | MMLU 85/100 | repeat 5/5 | 20.836 J
+small_1.5B | MMLU 86/100 | repeat 1/5 | 21.766 J
+small_1.5B | MMLU 86/100 | repeat 2/5 | 19.895 J
+small_1.5B | MMLU 86/100 | repeat 3/5 | 19.276 J
+small_1.5B | MMLU 86/100 | repeat 4/5 | 19.261 J
+small_1.5B | MMLU 86/100 | repeat 5/5 | 19.739 J
+small_1.5B | MMLU 87/100 | repeat 1/5 | 19.784 J
+small_1.5B | MMLU 87/100 | repeat 2/5 | 22.790 J
+small_1.5B | MMLU 87/100 | repeat 3/5 | 20.355 J
+small_1.5B | MMLU 87/100 | repeat 4/5 | 19.372 J
+small_1.5B | MMLU 87/100 | repeat 5/5 | 19.807 J
+small_1.5B | MMLU 88/100 | repeat 1/5 | 18.545 J
+small_1.5B | MMLU 88/100 | repeat 2/5 | 20.945 J
+small_1.5B | MMLU 88/100 | repeat 3/5 | 21.708 J
+small_1.5B | MMLU 88/100 | repeat 4/5 | 21.393 J
+small_1.5B | MMLU 88/100 | repeat 5/5 | 19.272 J
+small_1.5B | MMLU 89/100 | repeat 1/5 | 18.733 J
+small_1.5B | MMLU 89/100 | repeat 2/5 | 21.220 J
+small_1.5B | MMLU 89/100 | repeat 3/5 | 21.088 J
+small_1.5B | MMLU 89/100 | repeat 4/5 | 18.884 J
+small_1.5B | MMLU 89/100 | repeat 5/5 | 19.463 J
+small_1.5B | MMLU 90/100 | repeat 1/5 | 33.142 J
+small_1.5B | MMLU 90/100 | repeat 2/5 | 32.187 J
+small_1.5B | MMLU 90/100 | repeat 3/5 | 32.914 J
+small_1.5B | MMLU 90/100 | repeat 4/5 | 32.920 J
+small_1.5B | MMLU 90/100 | repeat 5/5 | 35.428 J
+small_1.5B | MMLU 91/100 | repeat 1/5 | 33.586 J
+small_1.5B | MMLU 91/100 | repeat 2/5 | 33.070 J
+small_1.5B | MMLU 91/100 | repeat 3/5 | 24.798 J
+small_1.5B | MMLU 91/100 | repeat 4/5 | 32.703 J
+small_1.5B | MMLU 91/100 | repeat 5/5 | 32.377 J
+small_1.5B | MMLU 92/100 | repeat 1/5 | 20.809 J
+small_1.5B | MMLU 92/100 | repeat 2/5 | 21.210 J
+small_1.5B | MMLU 92/100 | repeat 3/5 | 19.438 J
+small_1.5B | MMLU 92/100 | repeat 4/5 | 20.006 J
+small_1.5B | MMLU 92/100 | repeat 5/5 | 19.687 J
+small_1.5B | MMLU 93/100 | repeat 1/5 | 32.947 J
+small_1.5B | MMLU 93/100 | repeat 2/5 | 32.336 J
+small_1.5B | MMLU 93/100 | repeat 3/5 | 32.952 J
+small_1.5B | MMLU 93/100 | repeat 4/5 | 32.849 J
+small_1.5B | MMLU 93/100 | repeat 5/5 | 31.378 J
+small_1.5B | MMLU 94/100 | repeat 1/5 | 18.911 J
+small_1.5B | MMLU 94/100 | repeat 2/5 | 19.350 J
+small_1.5B | MMLU 94/100 | repeat 3/5 | 20.278 J
+small_1.5B | MMLU 94/100 | repeat 4/5 | 19.649 J
+small_1.5B | MMLU 94/100 | repeat 5/5 | 20.639 J
+small_1.5B | MMLU 95/100 | repeat 1/5 | 33.516 J
+small_1.5B | MMLU 95/100 | repeat 2/5 | 32.409 J
+small_1.5B | MMLU 95/100 | repeat 3/5 | 33.663 J
+small_1.5B | MMLU 95/100 | repeat 4/5 | 33.421 J
+small_1.5B | MMLU 95/100 | repeat 5/5 | 33.143 J
+small_1.5B | MMLU 96/100 | repeat 1/5 | 19.554 J
+small_1.5B | MMLU 96/100 | repeat 2/5 | 20.344 J
+small_1.5B | MMLU 96/100 | repeat 3/5 | 19.279 J
+small_1.5B | MMLU 96/100 | repeat 4/5 | 18.932 J
+small_1.5B | MMLU 96/100 | repeat 5/5 | 20.607 J
+small_1.5B | MMLU 97/100 | repeat 1/5 | 21.644 J
+small_1.5B | MMLU 97/100 | repeat 2/5 | 19.131 J
+small_1.5B | MMLU 97/100 | repeat 3/5 | 19.105 J
+small_1.5B | MMLU 97/100 | repeat 4/5 | 19.003 J
+small_1.5B | MMLU 97/100 | repeat 5/5 | 19.358 J
+small_1.5B | MMLU 98/100 | repeat 1/5 | 33.341 J
+small_1.5B | MMLU 98/100 | repeat 2/5 | 32.729 J
+small_1.5B | MMLU 98/100 | repeat 3/5 | 32.929 J
+small_1.5B | MMLU 98/100 | repeat 4/5 | 33.124 J
+small_1.5B | MMLU 98/100 | repeat 5/5 | 33.627 J
+small_1.5B | MMLU 99/100 | repeat 1/5 | 33.663 J
+small_1.5B | MMLU 99/100 | repeat 2/5 | 34.294 J
+small_1.5B | MMLU 99/100 | repeat 3/5 | 34.598 J
+small_1.5B | MMLU 99/100 | repeat 4/5 | 32.133 J
+small_1.5B | MMLU 99/100 | repeat 5/5 | 35.357 J
+small_1.5B | MMLU 100/100 | repeat 1/5 | 47.458 J
+small_1.5B | MMLU 100/100 | repeat 2/5 | 37.925 J
+small_1.5B | MMLU 100/100 | repeat 3/5 | 45.684 J
+small_1.5B | MMLU 100/100 | repeat 4/5 | 38.488 J
+small_1.5B | MMLU 100/100 | repeat 5/5 | 45.780 J
+
+Loading large_3B for repeated MMLU energy measurements: Qwen/Qwen2.5-3B-Instruct
+large_3B | MMLU 1/100 | repeat 1/5 | 42.020 J
+large_3B | MMLU 1/100 | repeat 2/5 | 45.526 J
+large_3B | MMLU 1/100 | repeat 3/5 | 45.883 J
+large_3B | MMLU 1/100 | repeat 4/5 | 45.357 J
+large_3B | MMLU 1/100 | repeat 5/5 | 47.512 J
+large_3B | MMLU 2/100 | repeat 1/5 | 47.130 J
+large_3B | MMLU 2/100 | repeat 2/5 | 47.860 J
+large_3B | MMLU 2/100 | repeat 3/5 | 46.626 J
+large_3B | MMLU 2/100 | repeat 4/5 | 46.960 J
+large_3B | MMLU 2/100 | repeat 5/5 | 48.468 J
+large_3B | MMLU 3/100 | repeat 1/5 | 39.814 J
+large_3B | MMLU 3/100 | repeat 2/5 | 41.993 J
+large_3B | MMLU 3/100 | repeat 3/5 | 41.407 J
+large_3B | MMLU 3/100 | repeat 4/5 | 42.447 J
+large_3B | MMLU 3/100 | repeat 5/5 | 42.654 J
+large_3B | MMLU 4/100 | repeat 1/5 | 102.171 J
+large_3B | MMLU 4/100 | repeat 2/5 | 100.865 J
+large_3B | MMLU 4/100 | repeat 3/5 | 104.002 J
+large_3B | MMLU 4/100 | repeat 4/5 | 102.022 J
+large_3B | MMLU 4/100 | repeat 5/5 | 101.284 J
+large_3B | MMLU 5/100 | repeat 1/5 | 41.101 J
+large_3B | MMLU 5/100 | repeat 2/5 | 41.368 J
+large_3B | MMLU 5/100 | repeat 3/5 | 40.735 J
+large_3B | MMLU 5/100 | repeat 4/5 | 40.831 J
+large_3B | MMLU 5/100 | repeat 5/5 | 41.271 J
+large_3B | MMLU 6/100 | repeat 1/5 | 44.824 J
+large_3B | MMLU 6/100 | repeat 2/5 | 45.292 J
+large_3B | MMLU 6/100 | repeat 3/5 | 46.069 J
+large_3B | MMLU 6/100 | repeat 4/5 | 47.628 J
+large_3B | MMLU 6/100 | repeat 5/5 | 46.284 J
+large_3B | MMLU 7/100 | repeat 1/5 | 48.267 J
+large_3B | MMLU 7/100 | repeat 2/5 | 48.643 J
+large_3B | MMLU 7/100 | repeat 3/5 | 50.373 J
+large_3B | MMLU 7/100 | repeat 4/5 | 47.218 J
+large_3B | MMLU 7/100 | repeat 5/5 | 47.171 J
+large_3B | MMLU 8/100 | repeat 1/5 | 80.097 J
+large_3B | MMLU 8/100 | repeat 2/5 | 84.220 J
+large_3B | MMLU 8/100 | repeat 3/5 | 83.773 J
+large_3B | MMLU 8/100 | repeat 4/5 | 83.891 J
+large_3B | MMLU 8/100 | repeat 5/5 | 84.766 J
+large_3B | MMLU 9/100 | repeat 1/5 | 59.953 J
+large_3B | MMLU 9/100 | repeat 2/5 | 61.046 J
+large_3B | MMLU 9/100 | repeat 3/5 | 61.298 J
+large_3B | MMLU 9/100 | repeat 4/5 | 60.987 J
+large_3B | MMLU 9/100 | repeat 5/5 | 60.749 J
+large_3B | MMLU 10/100 | repeat 1/5 | 59.263 J
+large_3B | MMLU 10/100 | repeat 2/5 | 60.296 J
+large_3B | MMLU 10/100 | repeat 3/5 | 60.585 J
+large_3B | MMLU 10/100 | repeat 4/5 | 60.251 J
+large_3B | MMLU 10/100 | repeat 5/5 | 58.802 J
+large_3B | MMLU 11/100 | repeat 1/5 | 46.156 J
+large_3B | MMLU 11/100 | repeat 2/5 | 47.599 J
+large_3B | MMLU 11/100 | repeat 3/5 | 47.076 J
+large_3B | MMLU 11/100 | repeat 4/5 | 46.355 J
+large_3B | MMLU 11/100 | repeat 5/5 | 47.127 J
+large_3B | MMLU 12/100 | repeat 1/5 | 34.596 J
+large_3B | MMLU 12/100 | repeat 2/5 | 35.981 J
+large_3B | MMLU 12/100 | repeat 3/5 | 33.059 J
+large_3B | MMLU 12/100 | repeat 4/5 | 33.728 J
+large_3B | MMLU 12/100 | repeat 5/5 | 32.321 J
+large_3B | MMLU 13/100 | repeat 1/5 | 32.907 J
+large_3B | MMLU 13/100 | repeat 2/5 | 33.539 J
+large_3B | MMLU 13/100 | repeat 3/5 | 33.817 J
+large_3B | MMLU 13/100 | repeat 4/5 | 33.437 J
+large_3B | MMLU 13/100 | repeat 5/5 | 33.247 J
+large_3B | MMLU 14/100 | repeat 1/5 | 31.950 J
+large_3B | MMLU 14/100 | repeat 2/5 | 32.730 J
+large_3B | MMLU 14/100 | repeat 3/5 | 33.413 J
+large_3B | MMLU 14/100 | repeat 4/5 | 33.794 J
+large_3B | MMLU 14/100 | repeat 5/5 | 34.907 J
+large_3B | MMLU 15/100 | repeat 1/5 | 104.017 J
+large_3B | MMLU 15/100 | repeat 2/5 | 101.237 J
+large_3B | MMLU 15/100 | repeat 3/5 | 99.988 J
+large_3B | MMLU 15/100 | repeat 4/5 | 104.392 J
+large_3B | MMLU 15/100 | repeat 5/5 | 99.508 J
+large_3B | MMLU 16/100 | repeat 1/5 | 80.993 J
+large_3B | MMLU 16/100 | repeat 2/5 | 81.308 J
+large_3B | MMLU 16/100 | repeat 3/5 | 80.739 J
+large_3B | MMLU 16/100 | repeat 4/5 | 73.739 J
+large_3B | MMLU 16/100 | repeat 5/5 | 80.530 J
+large_3B | MMLU 17/100 | repeat 1/5 | 48.257 J
+large_3B | MMLU 17/100 | repeat 2/5 | 48.269 J
+large_3B | MMLU 17/100 | repeat 3/5 | 54.168 J
+large_3B | MMLU 17/100 | repeat 4/5 | 53.692 J
+large_3B | MMLU 17/100 | repeat 5/5 | 53.875 J
+large_3B | MMLU 18/100 | repeat 1/5 | 61.242 J
+large_3B | MMLU 18/100 | repeat 2/5 | 60.075 J
+large_3B | MMLU 18/100 | repeat 3/5 | 60.053 J
+large_3B | MMLU 18/100 | repeat 4/5 | 59.220 J
+large_3B | MMLU 18/100 | repeat 5/5 | 60.362 J
+large_3B | MMLU 19/100 | repeat 1/5 | 31.346 J
+large_3B | MMLU 19/100 | repeat 2/5 | 30.842 J
+large_3B | MMLU 19/100 | repeat 3/5 | 32.305 J
+large_3B | MMLU 19/100 | repeat 4/5 | 29.327 J
+large_3B | MMLU 19/100 | repeat 5/5 | 30.986 J
+large_3B | MMLU 20/100 | repeat 1/5 | 42.417 J
+large_3B | MMLU 20/100 | repeat 2/5 | 42.835 J
+large_3B | MMLU 20/100 | repeat 3/5 | 35.627 J
+large_3B | MMLU 20/100 | repeat 4/5 | 42.049 J
+large_3B | MMLU 20/100 | repeat 5/5 | 36.517 J
+large_3B | MMLU 21/100 | repeat 1/5 | 61.300 J
+large_3B | MMLU 21/100 | repeat 2/5 | 69.268 J
+large_3B | MMLU 21/100 | repeat 3/5 | 68.249 J
+large_3B | MMLU 21/100 | repeat 4/5 | 64.575 J
+large_3B | MMLU 21/100 | repeat 5/5 | 72.490 J
+large_3B | MMLU 22/100 | repeat 1/5 | 61.743 J
+large_3B | MMLU 22/100 | repeat 2/5 | 58.761 J
+large_3B | MMLU 22/100 | repeat 3/5 | 60.595 J
+large_3B | MMLU 22/100 | repeat 4/5 | 59.518 J
+large_3B | MMLU 22/100 | repeat 5/5 | 61.355 J
+large_3B | MMLU 23/100 | repeat 1/5 | 88.653 J
+large_3B | MMLU 23/100 | repeat 2/5 | 86.652 J
+large_3B | MMLU 23/100 | repeat 3/5 | 89.833 J
+large_3B | MMLU 23/100 | repeat 4/5 | 91.923 J
+large_3B | MMLU 23/100 | repeat 5/5 | 89.258 J
+large_3B | MMLU 24/100 | repeat 1/5 | 61.841 J
+large_3B | MMLU 24/100 | repeat 2/5 | 61.383 J
+large_3B | MMLU 24/100 | repeat 3/5 | 58.896 J
+large_3B | MMLU 24/100 | repeat 4/5 | 60.197 J
+large_3B | MMLU 24/100 | repeat 5/5 | 59.231 J
+large_3B | MMLU 25/100 | repeat 1/5 | 60.242 J
+large_3B | MMLU 25/100 | repeat 2/5 | 60.627 J
+large_3B | MMLU 25/100 | repeat 3/5 | 59.545 J
+large_3B | MMLU 25/100 | repeat 4/5 | 58.639 J
+large_3B | MMLU 25/100 | repeat 5/5 | 61.516 J
+large_3B | MMLU 26/100 | repeat 1/5 | 88.828 J
+large_3B | MMLU 26/100 | repeat 2/5 | 87.354 J
+large_3B | MMLU 26/100 | repeat 3/5 | 86.622 J
+large_3B | MMLU 26/100 | repeat 4/5 | 89.709 J
+large_3B | MMLU 26/100 | repeat 5/5 | 88.915 J
+large_3B | MMLU 27/100 | repeat 1/5 | 53.958 J
+large_3B | MMLU 27/100 | repeat 2/5 | 48.198 J
+large_3B | MMLU 27/100 | repeat 3/5 | 52.645 J
+large_3B | MMLU 27/100 | repeat 4/5 | 54.371 J
+large_3B | MMLU 27/100 | repeat 5/5 | 48.101 J
+large_3B | MMLU 28/100 | repeat 1/5 | 33.603 J
+large_3B | MMLU 28/100 | repeat 2/5 | 33.728 J
+large_3B | MMLU 28/100 | repeat 3/5 | 34.514 J
+large_3B | MMLU 28/100 | repeat 4/5 | 33.840 J
+large_3B | MMLU 28/100 | repeat 5/5 | 32.057 J
+large_3B | MMLU 29/100 | repeat 1/5 | 69.454 J
+large_3B | MMLU 29/100 | repeat 2/5 | 68.865 J
+large_3B | MMLU 29/100 | repeat 3/5 | 68.478 J
+large_3B | MMLU 29/100 | repeat 4/5 | 69.030 J
+large_3B | MMLU 29/100 | repeat 5/5 | 68.759 J
+large_3B | MMLU 30/100 | repeat 1/5 | 84.540 J
+large_3B | MMLU 30/100 | repeat 2/5 | 85.757 J
+large_3B | MMLU 30/100 | repeat 3/5 | 85.305 J
+large_3B | MMLU 30/100 | repeat 4/5 | 86.143 J
+large_3B | MMLU 30/100 | repeat 5/5 | 85.254 J
+large_3B | MMLU 31/100 | repeat 1/5 | 42.927 J
+large_3B | MMLU 31/100 | repeat 2/5 | 41.546 J
+large_3B | MMLU 31/100 | repeat 3/5 | 42.111 J
+large_3B | MMLU 31/100 | repeat 4/5 | 43.270 J
+large_3B | MMLU 31/100 | repeat 5/5 | 40.621 J
+large_3B | MMLU 32/100 | repeat 1/5 | 42.283 J
+large_3B | MMLU 32/100 | repeat 2/5 | 41.533 J
+large_3B | MMLU 32/100 | repeat 3/5 | 41.637 J
+large_3B | MMLU 32/100 | repeat 4/5 | 43.283 J
+large_3B | MMLU 32/100 | repeat 5/5 | 41.823 J
+large_3B | MMLU 33/100 | repeat 1/5 | 53.624 J
+large_3B | MMLU 33/100 | repeat 2/5 | 49.067 J
+large_3B | MMLU 33/100 | repeat 3/5 | 54.115 J
+large_3B | MMLU 33/100 | repeat 4/5 | 49.465 J
+large_3B | MMLU 33/100 | repeat 5/5 | 48.729 J
+large_3B | MMLU 34/100 | repeat 1/5 | 45.818 J
+large_3B | MMLU 34/100 | repeat 2/5 | 47.141 J
+large_3B | MMLU 34/100 | repeat 3/5 | 47.607 J
+large_3B | MMLU 34/100 | repeat 4/5 | 45.796 J
+large_3B | MMLU 34/100 | repeat 5/5 | 46.754 J
+large_3B | MMLU 35/100 | repeat 1/5 | 46.707 J
+large_3B | MMLU 35/100 | repeat 2/5 | 47.490 J
+large_3B | MMLU 35/100 | repeat 3/5 | 47.694 J
+large_3B | MMLU 35/100 | repeat 4/5 | 47.922 J
+large_3B | MMLU 35/100 | repeat 5/5 | 48.053 J
+large_3B | MMLU 36/100 | repeat 1/5 | 81.437 J
+large_3B | MMLU 36/100 | repeat 2/5 | 76.274 J
+large_3B | MMLU 36/100 | repeat 3/5 | 82.524 J
+large_3B | MMLU 36/100 | repeat 4/5 | 82.655 J
+large_3B | MMLU 36/100 | repeat 5/5 | 75.111 J
+large_3B | MMLU 37/100 | repeat 1/5 | 59.401 J
+large_3B | MMLU 37/100 | repeat 2/5 | 59.621 J
+large_3B | MMLU 37/100 | repeat 3/5 | 58.769 J
+large_3B | MMLU 37/100 | repeat 4/5 | 61.875 J
+large_3B | MMLU 37/100 | repeat 5/5 | 60.063 J
+large_3B | MMLU 38/100 | repeat 1/5 | 53.337 J
+large_3B | MMLU 38/100 | repeat 2/5 | 48.379 J
+large_3B | MMLU 38/100 | repeat 3/5 | 48.517 J
+large_3B | MMLU 38/100 | repeat 4/5 | 47.089 J
+large_3B | MMLU 38/100 | repeat 5/5 | 48.891 J
+large_3B | MMLU 39/100 | repeat 1/5 | 32.509 J
+large_3B | MMLU 39/100 | repeat 2/5 | 34.996 J
+large_3B | MMLU 39/100 | repeat 3/5 | 34.553 J
+large_3B | MMLU 39/100 | repeat 4/5 | 33.462 J
+large_3B | MMLU 39/100 | repeat 5/5 | 34.715 J
+large_3B | MMLU 40/100 | repeat 1/5 | 62.184 J
+large_3B | MMLU 40/100 | repeat 2/5 | 63.075 J
+large_3B | MMLU 40/100 | repeat 3/5 | 59.525 J
+large_3B | MMLU 40/100 | repeat 4/5 | 62.320 J
+large_3B | MMLU 40/100 | repeat 5/5 | 61.270 J
+large_3B | MMLU 41/100 | repeat 1/5 | 47.696 J
+large_3B | MMLU 41/100 | repeat 2/5 | 46.935 J
+large_3B | MMLU 41/100 | repeat 3/5 | 46.895 J
+large_3B | MMLU 41/100 | repeat 4/5 | 47.145 J
+large_3B | MMLU 41/100 | repeat 5/5 | 47.969 J
+large_3B | MMLU 42/100 | repeat 1/5 | 46.950 J
+large_3B | MMLU 42/100 | repeat 2/5 | 47.117 J
+large_3B | MMLU 42/100 | repeat 3/5 | 46.955 J
+large_3B | MMLU 42/100 | repeat 4/5 | 46.860 J
+large_3B | MMLU 42/100 | repeat 5/5 | 48.200 J
+large_3B | MMLU 43/100 | repeat 1/5 | 48.593 J
+large_3B | MMLU 43/100 | repeat 2/5 | 53.871 J
+large_3B | MMLU 43/100 | repeat 3/5 | 48.601 J
+large_3B | MMLU 43/100 | repeat 4/5 | 49.984 J
+large_3B | MMLU 43/100 | repeat 5/5 | 48.165 J
+large_3B | MMLU 44/100 | repeat 1/5 | 70.232 J
+large_3B | MMLU 44/100 | repeat 2/5 | 71.831 J
+large_3B | MMLU 44/100 | repeat 3/5 | 70.546 J
+large_3B | MMLU 44/100 | repeat 4/5 | 69.316 J
+large_3B | MMLU 44/100 | repeat 5/5 | 70.134 J
+large_3B | MMLU 45/100 | repeat 1/5 | 49.166 J
+large_3B | MMLU 45/100 | repeat 2/5 | 54.567 J
+large_3B | MMLU 45/100 | repeat 3/5 | 53.953 J
+large_3B | MMLU 45/100 | repeat 4/5 | 47.959 J
+large_3B | MMLU 45/100 | repeat 5/5 | 50.524 J
+large_3B | MMLU 46/100 | repeat 1/5 | 59.959 J
+large_3B | MMLU 46/100 | repeat 2/5 | 60.627 J
+large_3B | MMLU 46/100 | repeat 3/5 | 59.342 J
+large_3B | MMLU 46/100 | repeat 4/5 | 58.966 J
+large_3B | MMLU 46/100 | repeat 5/5 | 60.043 J
+large_3B | MMLU 47/100 | repeat 1/5 | 67.479 J
+large_3B | MMLU 47/100 | repeat 2/5 | 67.354 J
+large_3B | MMLU 47/100 | repeat 3/5 | 61.112 J
+large_3B | MMLU 47/100 | repeat 4/5 | 62.534 J
+large_3B | MMLU 47/100 | repeat 5/5 | 61.679 J
+large_3B | MMLU 48/100 | repeat 1/5 | 54.276 J
+large_3B | MMLU 48/100 | repeat 2/5 | 54.461 J
+large_3B | MMLU 48/100 | repeat 3/5 | 54.833 J
+large_3B | MMLU 48/100 | repeat 4/5 | 49.792 J
+large_3B | MMLU 48/100 | repeat 5/5 | 53.528 J
+large_3B | MMLU 49/100 | repeat 1/5 | 45.472 J
+large_3B | MMLU 49/100 | repeat 2/5 | 45.439 J
+large_3B | MMLU 49/100 | repeat 3/5 | 45.876 J
+large_3B | MMLU 49/100 | repeat 4/5 | 46.900 J
+large_3B | MMLU 49/100 | repeat 5/5 | 47.611 J
+large_3B | MMLU 50/100 | repeat 1/5 | 64.449 J
+large_3B | MMLU 50/100 | repeat 2/5 | 69.768 J
+large_3B | MMLU 50/100 | repeat 3/5 | 69.396 J
+large_3B | MMLU 50/100 | repeat 4/5 | 69.194 J
+large_3B | MMLU 50/100 | repeat 5/5 | 70.843 J
+large_3B | MMLU 51/100 | repeat 1/5 | 69.712 J
+large_3B | MMLU 51/100 | repeat 2/5 | 70.672 J
+large_3B | MMLU 51/100 | repeat 3/5 | 70.077 J
+large_3B | MMLU 51/100 | repeat 4/5 | 69.377 J
+large_3B | MMLU 51/100 | repeat 5/5 | 69.220 J
+large_3B | MMLU 52/100 | repeat 1/5 | 62.025 J
+large_3B | MMLU 52/100 | repeat 2/5 | 59.983 J
+large_3B | MMLU 52/100 | repeat 3/5 | 59.828 J
+large_3B | MMLU 52/100 | repeat 4/5 | 61.334 J
+large_3B | MMLU 52/100 | repeat 5/5 | 59.846 J
+large_3B | MMLU 53/100 | repeat 1/5 | 62.029 J
+large_3B | MMLU 53/100 | repeat 2/5 | 58.628 J
+large_3B | MMLU 53/100 | repeat 3/5 | 60.406 J
+large_3B | MMLU 53/100 | repeat 4/5 | 57.581 J
+large_3B | MMLU 53/100 | repeat 5/5 | 61.039 J
+large_3B | MMLU 54/100 | repeat 1/5 | 53.927 J
+large_3B | MMLU 54/100 | repeat 2/5 | 54.415 J
+large_3B | MMLU 54/100 | repeat 3/5 | 54.628 J
+large_3B | MMLU 54/100 | repeat 4/5 | 49.110 J
+large_3B | MMLU 54/100 | repeat 5/5 | 54.162 J
+large_3B | MMLU 55/100 | repeat 1/5 | 31.710 J
+large_3B | MMLU 55/100 | repeat 2/5 | 31.253 J
+large_3B | MMLU 55/100 | repeat 3/5 | 30.028 J
+large_3B | MMLU 55/100 | repeat 4/5 | 30.998 J
+large_3B | MMLU 55/100 | repeat 5/5 | 31.124 J
+large_3B | MMLU 56/100 | repeat 1/5 | 59.072 J
+large_3B | MMLU 56/100 | repeat 2/5 | 59.249 J
+large_3B | MMLU 56/100 | repeat 3/5 | 60.733 J
+large_3B | MMLU 56/100 | repeat 4/5 | 60.130 J
+large_3B | MMLU 56/100 | repeat 5/5 | 60.632 J
+large_3B | MMLU 57/100 | repeat 1/5 | 32.203 J
+large_3B | MMLU 57/100 | repeat 2/5 | 33.967 J
+large_3B | MMLU 57/100 | repeat 3/5 | 33.802 J
+large_3B | MMLU 57/100 | repeat 4/5 | 34.508 J
+large_3B | MMLU 57/100 | repeat 5/5 | 37.578 J
+large_3B | MMLU 58/100 | repeat 1/5 | 47.532 J
+large_3B | MMLU 58/100 | repeat 2/5 | 50.400 J
+large_3B | MMLU 58/100 | repeat 3/5 | 48.727 J
+large_3B | MMLU 58/100 | repeat 4/5 | 51.377 J
+large_3B | MMLU 58/100 | repeat 5/5 | 49.312 J
+large_3B | MMLU 59/100 | repeat 1/5 | 60.395 J
+large_3B | MMLU 59/100 | repeat 2/5 | 62.274 J
+large_3B | MMLU 59/100 | repeat 3/5 | 60.397 J
+large_3B | MMLU 59/100 | repeat 4/5 | 62.257 J
+large_3B | MMLU 59/100 | repeat 5/5 | 60.405 J
+large_3B | MMLU 60/100 | repeat 1/5 | 31.955 J
+large_3B | MMLU 60/100 | repeat 2/5 | 31.157 J
+large_3B | MMLU 60/100 | repeat 3/5 | 32.244 J
+large_3B | MMLU 60/100 | repeat 4/5 | 30.075 J
+large_3B | MMLU 60/100 | repeat 5/5 | 31.238 J
+large_3B | MMLU 61/100 | repeat 1/5 | 33.394 J
+large_3B | MMLU 61/100 | repeat 2/5 | 31.872 J
+large_3B | MMLU 61/100 | repeat 3/5 | 34.821 J
+large_3B | MMLU 61/100 | repeat 4/5 | 36.104 J
+large_3B | MMLU 61/100 | repeat 5/5 | 34.030 J
+large_3B | MMLU 62/100 | repeat 1/5 | 48.122 J
+large_3B | MMLU 62/100 | repeat 2/5 | 46.287 J
+large_3B | MMLU 62/100 | repeat 3/5 | 47.246 J
+large_3B | MMLU 62/100 | repeat 4/5 | 47.348 J
+large_3B | MMLU 62/100 | repeat 5/5 | 47.598 J
+large_3B | MMLU 63/100 | repeat 1/5 | 33.400 J
+large_3B | MMLU 63/100 | repeat 2/5 | 33.425 J
+large_3B | MMLU 63/100 | repeat 3/5 | 33.095 J
+large_3B | MMLU 63/100 | repeat 4/5 | 34.428 J
+large_3B | MMLU 63/100 | repeat 5/5 | 33.918 J
+large_3B | MMLU 64/100 | repeat 1/5 | 65.786 J
+large_3B | MMLU 64/100 | repeat 2/5 | 59.391 J
+large_3B | MMLU 64/100 | repeat 3/5 | 62.851 J
+large_3B | MMLU 64/100 | repeat 4/5 | 58.991 J
+large_3B | MMLU 64/100 | repeat 5/5 | 60.082 J
+large_3B | MMLU 65/100 | repeat 1/5 | 47.355 J
+large_3B | MMLU 65/100 | repeat 2/5 | 48.227 J
+large_3B | MMLU 65/100 | repeat 3/5 | 48.326 J
+large_3B | MMLU 65/100 | repeat 4/5 | 47.920 J
+large_3B | MMLU 65/100 | repeat 5/5 | 46.879 J
+large_3B | MMLU 66/100 | repeat 1/5 | 30.544 J
+large_3B | MMLU 66/100 | repeat 2/5 | 30.836 J
+large_3B | MMLU 66/100 | repeat 3/5 | 30.946 J
+large_3B | MMLU 66/100 | repeat 4/5 | 33.002 J
+large_3B | MMLU 66/100 | repeat 5/5 | 32.599 J
+large_3B | MMLU 67/100 | repeat 1/5 | 34.112 J
+large_3B | MMLU 67/100 | repeat 2/5 | 35.524 J
+large_3B | MMLU 67/100 | repeat 3/5 | 33.852 J
+large_3B | MMLU 67/100 | repeat 4/5 | 31.460 J
+large_3B | MMLU 67/100 | repeat 5/5 | 33.061 J
+large_3B | MMLU 68/100 | repeat 1/5 | 60.777 J
+large_3B | MMLU 68/100 | repeat 2/5 | 60.081 J
+large_3B | MMLU 68/100 | repeat 3/5 | 60.685 J
+large_3B | MMLU 68/100 | repeat 4/5 | 62.928 J
+large_3B | MMLU 68/100 | repeat 5/5 | 61.704 J
+large_3B | MMLU 69/100 | repeat 1/5 | 151.065 J
+large_3B | MMLU 69/100 | repeat 2/5 | 152.596 J
+large_3B | MMLU 69/100 | repeat 3/5 | 151.824 J
+large_3B | MMLU 69/100 | repeat 4/5 | 147.900 J
+large_3B | MMLU 69/100 | repeat 5/5 | 152.155 J
+large_3B | MMLU 70/100 | repeat 1/5 | 44.180 J
+large_3B | MMLU 70/100 | repeat 2/5 | 43.390 J
+large_3B | MMLU 70/100 | repeat 3/5 | 42.196 J
+large_3B | MMLU 70/100 | repeat 4/5 | 43.291 J
+large_3B | MMLU 70/100 | repeat 5/5 | 36.978 J
+large_3B | MMLU 71/100 | repeat 1/5 | 46.665 J
+large_3B | MMLU 71/100 | repeat 2/5 | 46.772 J
+large_3B | MMLU 71/100 | repeat 3/5 | 46.970 J
+large_3B | MMLU 71/100 | repeat 4/5 | 48.141 J
+large_3B | MMLU 71/100 | repeat 5/5 | 48.637 J
+large_3B | MMLU 72/100 | repeat 1/5 | 46.069 J
+large_3B | MMLU 72/100 | repeat 2/5 | 47.618 J
+large_3B | MMLU 72/100 | repeat 3/5 | 48.437 J
+large_3B | MMLU 72/100 | repeat 4/5 | 45.884 J
+large_3B | MMLU 72/100 | repeat 5/5 | 46.694 J
+large_3B | MMLU 73/100 | repeat 1/5 | 69.363 J
+large_3B | MMLU 73/100 | repeat 2/5 | 70.289 J
+large_3B | MMLU 73/100 | repeat 3/5 | 70.791 J
+large_3B | MMLU 73/100 | repeat 4/5 | 69.509 J
+large_3B | MMLU 73/100 | repeat 5/5 | 71.337 J
+large_3B | MMLU 74/100 | repeat 1/5 | 68.177 J
+large_3B | MMLU 74/100 | repeat 2/5 | 62.614 J
+large_3B | MMLU 74/100 | repeat 3/5 | 62.359 J
+large_3B | MMLU 74/100 | repeat 4/5 | 67.382 J
+large_3B | MMLU 74/100 | repeat 5/5 | 61.389 J
+large_3B | MMLU 75/100 | repeat 1/5 | 54.927 J
+large_3B | MMLU 75/100 | repeat 2/5 | 50.417 J
+large_3B | MMLU 75/100 | repeat 3/5 | 54.485 J
+large_3B | MMLU 75/100 | repeat 4/5 | 47.618 J
+large_3B | MMLU 75/100 | repeat 5/5 | 50.943 J
+large_3B | MMLU 76/100 | repeat 1/5 | 196.392 J
+large_3B | MMLU 76/100 | repeat 2/5 | 188.604 J
+large_3B | MMLU 76/100 | repeat 3/5 | 194.430 J
+large_3B | MMLU 76/100 | repeat 4/5 | 197.878 J
+large_3B | MMLU 76/100 | repeat 5/5 | 198.970 J
+large_3B | MMLU 77/100 | repeat 1/5 | 66.053 J
+large_3B | MMLU 77/100 | repeat 2/5 | 68.002 J
+large_3B | MMLU 77/100 | repeat 3/5 | 65.982 J
+large_3B | MMLU 77/100 | repeat 4/5 | 61.265 J
+large_3B | MMLU 77/100 | repeat 5/5 | 66.767 J
+large_3B | MMLU 78/100 | repeat 1/5 | 68.405 J
+large_3B | MMLU 78/100 | repeat 2/5 | 67.444 J
+large_3B | MMLU 78/100 | repeat 3/5 | 68.765 J
+large_3B | MMLU 78/100 | repeat 4/5 | 66.993 J
+large_3B | MMLU 78/100 | repeat 5/5 | 69.676 J
+large_3B | MMLU 79/100 | repeat 1/5 | 46.381 J
+large_3B | MMLU 79/100 | repeat 2/5 | 47.689 J
+large_3B | MMLU 79/100 | repeat 3/5 | 47.458 J
+large_3B | MMLU 79/100 | repeat 4/5 | 47.850 J
+large_3B | MMLU 79/100 | repeat 5/5 | 46.307 J
+large_3B | MMLU 80/100 | repeat 1/5 | 42.223 J
+large_3B | MMLU 80/100 | repeat 2/5 | 43.541 J
+large_3B | MMLU 80/100 | repeat 3/5 | 42.362 J
+large_3B | MMLU 80/100 | repeat 4/5 | 42.665 J
+large_3B | MMLU 80/100 | repeat 5/5 | 42.342 J
+large_3B | MMLU 81/100 | repeat 1/5 | 33.136 J
+large_3B | MMLU 81/100 | repeat 2/5 | 32.540 J
+large_3B | MMLU 81/100 | repeat 3/5 | 31.742 J
+large_3B | MMLU 81/100 | repeat 4/5 | 30.535 J
+large_3B | MMLU 81/100 | repeat 5/5 | 30.256 J
+large_3B | MMLU 82/100 | repeat 1/5 | 46.810 J
+large_3B | MMLU 82/100 | repeat 2/5 | 47.904 J
+large_3B | MMLU 82/100 | repeat 3/5 | 47.615 J
+large_3B | MMLU 82/100 | repeat 4/5 | 48.742 J
+large_3B | MMLU 82/100 | repeat 5/5 | 48.271 J
+large_3B | MMLU 83/100 | repeat 1/5 | 28.733 J
+large_3B | MMLU 83/100 | repeat 2/5 | 30.027 J
+large_3B | MMLU 83/100 | repeat 3/5 | 31.439 J
+large_3B | MMLU 83/100 | repeat 4/5 | 33.029 J
+large_3B | MMLU 83/100 | repeat 5/5 | 31.523 J
+large_3B | MMLU 84/100 | repeat 1/5 | 43.682 J
+large_3B | MMLU 84/100 | repeat 2/5 | 43.202 J
+large_3B | MMLU 84/100 | repeat 3/5 | 41.389 J
+large_3B | MMLU 84/100 | repeat 4/5 | 43.942 J
+large_3B | MMLU 84/100 | repeat 5/5 | 43.673 J
+large_3B | MMLU 85/100 | repeat 1/5 | 43.004 J
+large_3B | MMLU 85/100 | repeat 2/5 | 42.900 J
+large_3B | MMLU 85/100 | repeat 3/5 | 42.823 J
+large_3B | MMLU 85/100 | repeat 4/5 | 41.488 J
+large_3B | MMLU 85/100 | repeat 5/5 | 43.559 J
+large_3B | MMLU 86/100 | repeat 1/5 | 48.246 J
+large_3B | MMLU 86/100 | repeat 2/5 | 46.012 J
+large_3B | MMLU 86/100 | repeat 3/5 | 46.443 J
+large_3B | MMLU 86/100 | repeat 4/5 | 45.874 J
+large_3B | MMLU 86/100 | repeat 5/5 | 46.349 J
+large_3B | MMLU 87/100 | repeat 1/5 | 36.722 J
+large_3B | MMLU 87/100 | repeat 2/5 | 41.815 J
+large_3B | MMLU 87/100 | repeat 3/5 | 37.504 J
+large_3B | MMLU 87/100 | repeat 4/5 | 43.333 J
+large_3B | MMLU 87/100 | repeat 5/5 | 35.593 J
+large_3B | MMLU 88/100 | repeat 1/5 | 37.057 J
+large_3B | MMLU 88/100 | repeat 2/5 | 36.685 J
+large_3B | MMLU 88/100 | repeat 3/5 | 41.897 J
+large_3B | MMLU 88/100 | repeat 4/5 | 43.288 J
+large_3B | MMLU 88/100 | repeat 5/5 | 42.738 J
+large_3B | MMLU 89/100 | repeat 1/5 | 42.273 J
+large_3B | MMLU 89/100 | repeat 2/5 | 43.830 J
+large_3B | MMLU 89/100 | repeat 3/5 | 41.767 J
+large_3B | MMLU 89/100 | repeat 4/5 | 42.101 J
+large_3B | MMLU 89/100 | repeat 5/5 | 37.967 J
+large_3B | MMLU 90/100 | repeat 1/5 | 60.816 J
+large_3B | MMLU 90/100 | repeat 2/5 | 69.173 J
+large_3B | MMLU 90/100 | repeat 3/5 | 68.530 J
+large_3B | MMLU 90/100 | repeat 4/5 | 62.897 J
+large_3B | MMLU 90/100 | repeat 5/5 | 63.626 J
+large_3B | MMLU 91/100 | repeat 1/5 | 60.265 J
+large_3B | MMLU 91/100 | repeat 2/5 | 62.016 J
+large_3B | MMLU 91/100 | repeat 3/5 | 61.709 J
+large_3B | MMLU 91/100 | repeat 4/5 | 60.746 J
+large_3B | MMLU 91/100 | repeat 5/5 | 59.883 J
+large_3B | MMLU 92/100 | repeat 1/5 | 45.872 J
+large_3B | MMLU 92/100 | repeat 2/5 | 48.335 J
+large_3B | MMLU 92/100 | repeat 3/5 | 49.413 J
+large_3B | MMLU 92/100 | repeat 4/5 | 48.396 J
+large_3B | MMLU 92/100 | repeat 5/5 | 45.402 J
+large_3B | MMLU 93/100 | repeat 1/5 | 60.384 J
+large_3B | MMLU 93/100 | repeat 2/5 | 61.972 J
+large_3B | MMLU 93/100 | repeat 3/5 | 62.011 J
+large_3B | MMLU 93/100 | repeat 4/5 | 59.153 J
+large_3B | MMLU 93/100 | repeat 5/5 | 59.163 J
+large_3B | MMLU 94/100 | repeat 1/5 | 34.160 J
+large_3B | MMLU 94/100 | repeat 2/5 | 34.637 J
+large_3B | MMLU 94/100 | repeat 3/5 | 33.994 J
+large_3B | MMLU 94/100 | repeat 4/5 | 33.274 J
+large_3B | MMLU 94/100 | repeat 5/5 | 33.509 J
+large_3B | MMLU 95/100 | repeat 1/5 | 61.484 J
+large_3B | MMLU 95/100 | repeat 2/5 | 59.391 J
+large_3B | MMLU 95/100 | repeat 3/5 | 60.110 J
+large_3B | MMLU 95/100 | repeat 4/5 | 61.513 J
+large_3B | MMLU 95/100 | repeat 5/5 | 60.247 J
+large_3B | MMLU 96/100 | repeat 1/5 | 33.980 J
+large_3B | MMLU 96/100 | repeat 2/5 | 33.655 J
+large_3B | MMLU 96/100 | repeat 3/5 | 33.174 J
+large_3B | MMLU 96/100 | repeat 4/5 | 33.600 J
+large_3B | MMLU 96/100 | repeat 5/5 | 35.767 J
+large_3B | MMLU 97/100 | repeat 1/5 | 49.013 J
+large_3B | MMLU 97/100 | repeat 2/5 | 48.497 J
+large_3B | MMLU 97/100 | repeat 3/5 | 45.460 J
+large_3B | MMLU 97/100 | repeat 4/5 | 45.809 J
+large_3B | MMLU 97/100 | repeat 5/5 | 48.772 J
+large_3B | MMLU 98/100 | repeat 1/5 | 60.024 J
+large_3B | MMLU 98/100 | repeat 2/5 | 61.725 J
+large_3B | MMLU 98/100 | repeat 3/5 | 61.060 J
+large_3B | MMLU 98/100 | repeat 4/5 | 62.536 J
+large_3B | MMLU 98/100 | repeat 5/5 | 65.670 J
+large_3B | MMLU 99/100 | repeat 1/5 | 63.501 J
+large_3B | MMLU 99/100 | repeat 2/5 | 60.456 J
+large_3B | MMLU 99/100 | repeat 3/5 | 61.112 J
+large_3B | MMLU 99/100 | repeat 4/5 | 62.792 J
+large_3B | MMLU 99/100 | repeat 5/5 | 60.999 J
+large_3B | MMLU 100/100 | repeat 1/5 | 89.551 J
+large_3B | MMLU 100/100 | repeat 2/5 | 90.978 J
+large_3B | MMLU 100/100 | repeat 3/5 | 90.801 J
+large_3B | MMLU 100/100 | repeat 4/5 | 88.106 J
+large_3B | MMLU 100/100 | repeat 5/5 | 90.219 J
+
+Repeated MMLU energy measurement complete.
+Total repeated measurements: 1000
+model_name  average_energy_j  std_across_prompts_j  average_latency_s  prompts
+  large_3B         55.663481             23.357635           0.280197      100
+small_1.5B         27.388543             11.596825           0.162985      100
+
+Saved raw repeats to mmlu_energy_repeats.csv
+Saved per-prompt averages to mmlu_energy_per_prompt.csv
+Saved model summary to mmlu_energy_summary.csv
+Load from ground-truth from /u/ykim10/.cache/evalplus/mbpp_plus_100_seed42.pkl
+
+Average quality, energy, and latency by model and task:
+     model_name          task evaluation_metric  average_quality  average_energy_j  average_latency_s  average_generated_tokens  runs
+     coder_1.5B        coding      MBPP+ pass@1         0.660000        221.650478           2.132207                     38.07   100
+       large_3B        coding      MBPP+ pass@1         0.680000        332.670376           2.695599                     37.44   100
+       large_3B    factual_qa          accuracy         0.270000         54.460028           0.278690                      2.02   100
+       large_3B summarization           ROUGE-L         0.179314        458.998173           3.258912                     41.22   100
+     small_1.5B        coding      MBPP+ pass@1         0.560000        275.804054           2.623182                     47.04   100
+     small_1.5B    factual_qa          accuracy         0.230000         27.347246           0.165745                      2.02   100
+     small_1.5B summarization           ROUGE-L         0.191234        259.756143           2.199383                     36.72   100
+summarizer_1.5B summarization           ROUGE-L         0.172191        354.502914           3.105033                     52.41   100
+
+Saved graded results to llm_energy_results_graded.csv
+Saved summary to llm_energy_summary.csv
