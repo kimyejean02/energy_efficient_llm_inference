@@ -1,0 +1,10 @@
+{
+  "task_detector_accuracy": 0.9993662864385298,
+  "task_detector_us_per_prompt": 3.9712656926746153,
+  "tolerance": {
+    "factual_qa": 0.02,
+    "summarization": 0.01,
+    "coding": 0.02
+  },
+  "energy_column": "gpu_energy_avgp_latency_j"
+}

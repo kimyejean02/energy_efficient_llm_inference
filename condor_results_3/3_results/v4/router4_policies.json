@@ -1,0 +1,395 @@
+{
+ "v3 menu, 3 tasks": {
+  "always small_1.5B": {
+   "factual_qa": {
+    "type": "single",
+    "model": "small_1.5B"
+   },
+   "summarization": {
+    "type": "single",
+    "model": "small_1.5B"
+   },
+   "coding": {
+    "type": "single",
+    "model": "small_1.5B"
+   }
+  },
+  "always large_3B": {
+   "factual_qa": {
+    "type": "single",
+    "model": "large_3B"
+   },
+   "summarization": {
+    "type": "single",
+    "model": "large_3B"
+   },
+   "coding": {
+    "type": "single",
+    "model": "large_3B"
+   }
+  },
+  "task-aware": {
+   "factual_qa": {
+    "type": "single",
+    "model": "large_3B"
+   },
+   "summarization": {
+    "type": "single",
+    "model": "coder_1.5B"
+   },
+   "coding": {
+    "type": "single",
+    "model": "coder_1.5B"
+   }
+  },
+  "cascade": {
+   "factual_qa": {
+    "type": "cascade",
+    "first": "small_1.5B",
+    "tau": -0.580810897052288
+   },
+   "summarization": {
+    "type": "single",
+    "model": "coder_1.5B"
+   },
+   "coding": {
+    "type": "single",
+    "model": "coder_1.5B"
+   }
+  },
+  "task-aware + QA by subject": {
+   "factual_qa": {
+    "type": "by_category",
+    "map": {
+     "biology": "large_3B",
+     "business": "large_3B",
+     "chemistry": "large_3B",
+     "computer science": "small_1.5B",
+     "economics": "large_3B",
+     "engineering": "small_1.5B",
+     "health": "large_3B",
+     "history": "large_3B",
+     "law": "large_3B",
+     "math": "large_3B",
+     "other": "small_1.5B",
+     "philosophy": "coder_1.5B",
+     "physics": "small_1.5B",
+     "psychology": "large_3B"
+    }
+   },
+   "summarization": {
+    "type": "single",
+    "model": "coder_1.5B"
+   },
+   "coding": {
+    "type": "single",
+    "model": "coder_1.5B"
+   }
+  }
+ },
+ "full menu, 3 tasks": {
+  "always small_1.5B": {
+   "factual_qa": {
+    "type": "single",
+    "model": "small_1.5B"
+   },
+   "summarization": {
+    "type": "single",
+    "model": "small_1.5B"
+   },
+   "coding": {
+    "type": "single",
+    "model": "small_1.5B"
+   }
+  },
+  "always large_3B": {
+   "factual_qa": {
+    "type": "single",
+    "model": "large_3B"
+   },
+   "summarization": {
+    "type": "single",
+    "model": "large_3B"
+   },
+   "coding": {
+    "type": "single",
+    "model": "large_3B"
+   }
+  },
+  "task-aware": {
+   "factual_qa": {
+    "type": "single",
+    "model": "large_3B"
+   },
+   "summarization": {
+    "type": "single",
+    "model": "coder_1.5B"
+   },
+   "coding": {
+    "type": "single",
+    "model": "coder_1.5B"
+   }
+  },
+  "cascade": {
+   "factual_qa": {
+    "type": "cascade",
+    "first": "small_1.5B",
+    "tau": -0.580810897052288
+   },
+   "summarization": {
+    "type": "single",
+    "model": "coder_1.5B"
+   },
+   "coding": {
+    "type": "single",
+    "model": "coder_1.5B"
+   }
+  },
+  "task-aware + QA by subject": {
+   "factual_qa": {
+    "type": "by_category",
+    "map": {
+     "biology": "large_3B",
+     "business": "large_3B",
+     "chemistry": "large_3B",
+     "computer science": "small_1.5B",
+     "economics": "large_3B",
+     "engineering": "small_1.5B",
+     "health": "large_3B",
+     "history": "large_3B",
+     "law": "large_3B",
+     "math": "large_3B",
+     "other": "small_1.5B",
+     "philosophy": "coder_1.5B",
+     "physics": "small_1.5B",
+     "psychology": "large_3B"
+    }
+   },
+   "summarization": {
+    "type": "single",
+    "model": "coder_1.5B"
+   },
+   "coding": {
+    "type": "single",
+    "model": "coder_1.5B"
+   }
+  }
+ },
+ "full menu, 4 tasks": {
+  "always small_1.5B": {
+   "factual_qa": {
+    "type": "single",
+    "model": "small_1.5B"
+   },
+   "summarization": {
+    "type": "single",
+    "model": "small_1.5B"
+   },
+   "coding": {
+    "type": "single",
+    "model": "small_1.5B"
+   },
+   "math": {
+    "type": "single",
+    "model": "small_1.5B"
+   }
+  },
+  "always large_3B": {
+   "factual_qa": {
+    "type": "single",
+    "model": "large_3B"
+   },
+   "summarization": {
+    "type": "single",
+    "model": "large_3B"
+   },
+   "coding": {
+    "type": "single",
+    "model": "large_3B"
+   },
+   "math": {
+    "type": "single",
+    "model": "large_3B"
+   }
+  },
+  "task-aware": {
+   "factual_qa": {
+    "type": "single",
+    "model": "large_3B"
+   },
+   "summarization": {
+    "type": "single",
+    "model": "coder_1.5B"
+   },
+   "coding": {
+    "type": "single",
+    "model": "coder_1.5B"
+   },
+   "math": {
+    "type": "single",
+    "model": "math_1.5B"
+   }
+  },
+  "cascade": {
+   "factual_qa": {
+    "type": "cascade",
+    "first": "small_1.5B",
+    "tau": -0.580810897052288
+   },
+   "summarization": {
+    "type": "single",
+    "model": "coder_1.5B"
+   },
+   "coding": {
+    "type": "single",
+    "model": "coder_1.5B"
+   },
+   "math": {
+    "type": "single",
+    "model": "math_1.5B"
+   }
+  },
+  "task-aware + QA by subject": {
+   "factual_qa": {
+    "type": "by_category",
+    "map": {
+     "biology": "large_3B",
+     "business": "large_3B",
+     "chemistry": "large_3B",
+     "computer science": "small_1.5B",
+     "economics": "large_3B",
+     "engineering": "small_1.5B",
+     "health": "large_3B",
+     "history": "large_3B",
+     "law": "large_3B",
+     "math": "large_3B",
+     "other": "small_1.5B",
+     "philosophy": "coder_1.5B",
+     "physics": "small_1.5B",
+     "psychology": "large_3B"
+    }
+   },
+   "summarization": {
+    "type": "single",
+    "model": "coder_1.5B"
+   },
+   "coding": {
+    "type": "single",
+    "model": "coder_1.5B"
+   },
+   "math": {
+    "type": "single",
+    "model": "math_1.5B"
+   }
+  }
+ },
+ "v3 menu, 4 tasks": {
+  "always small_1.5B": {
+   "factual_qa": {
+    "type": "single",
+    "model": "small_1.5B"
+   },
+   "summarization": {
+    "type": "single",
+    "model": "small_1.5B"
+   },
+   "coding": {
+    "type": "single",
+    "model": "small_1.5B"
+   },
+   "math": {
+    "type": "single",
+    "model": "small_1.5B"
+   }
+  },
+  "always large_3B": {
+   "factual_qa": {
+    "type": "single",
+    "model": "large_3B"
+   },
+   "summarization": {
+    "type": "single",
+    "model": "large_3B"
+   },
+   "coding": {
+    "type": "single",
+    "model": "large_3B"
+   },
+   "math": {
+    "type": "single",
+    "model": "large_3B"
+   }
+  },
+  "task-aware": {
+   "factual_qa": {
+    "type": "single",
+    "model": "large_3B"
+   },
+   "summarization": {
+    "type": "single",
+    "model": "coder_1.5B"
+   },
+   "coding": {
+    "type": "single",
+    "model": "coder_1.5B"
+   },
+   "math": {
+    "type": "single",
+    "model": "large_3B"
+   }
+  },
+  "cascade": {
+   "factual_qa": {
+    "type": "cascade",
+    "first": "small_1.5B",
+    "tau": -0.580810897052288
+   },
+   "summarization": {
+    "type": "single",
+    "model": "coder_1.5B"
+   },
+   "coding": {
+    "type": "single",
+    "model": "coder_1.5B"
+   },
+   "math": {
+    "type": "cascade",
+    "first": "small_1.5B",
+    "tau": -0.1613384207124321
+   }
+  },
+  "task-aware + QA by subject": {
+   "factual_qa": {
+    "type": "by_category",
+    "map": {
+     "biology": "large_3B",
+     "business": "large_3B",
+     "chemistry": "large_3B",
+     "computer science": "small_1.5B",
+     "economics": "large_3B",
+     "engineering": "small_1.5B",
+     "health": "large_3B",
+     "history": "large_3B",
+     "law": "large_3B",
+     "math": "large_3B",
+     "other": "small_1.5B",
+     "philosophy": "coder_1.5B",
+     "physics": "small_1.5B",
+     "psychology": "large_3B"
+    }
+   },
+   "summarization": {
+    "type": "single",
+    "model": "coder_1.5B"
+   },
+   "coding": {
+    "type": "single",
+    "model": "coder_1.5B"
+   },
+   "math": {
+    "type": "single",
+    "model": "large_3B"
+   }
+  }
+ }
+}
